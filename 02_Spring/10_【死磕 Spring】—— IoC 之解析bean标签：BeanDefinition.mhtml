@@ -1,0 +1,2335 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://svip.iocoder.cn/Spring/IoC-parse-BeanDefinitions-for-BeanDefinition/
+Subject: =?utf-8?Q?=E6=97=A0?=
+Date: Sun, 14 Aug 2022 15:15:30 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--jHVLwRvJjted208zWUknkT3nHbY4y6AJCz2o4edj2i----"
+
+
+------MultipartBoundary--jHVLwRvJjted208zWUknkT3nHbY4y6AJCz2o4edj2i----
+Content-Type: text/html
+Content-ID: <frame-82DB98E7D6C38D54D7810EFECC1997F1@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://svip.iocoder.cn/Spring/IoC-parse-BeanDefinitions-for-BeanDefinition/
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8">
+ =20
+ =20
+  <title>=E6=97=A0</title>
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1, maximum-scale=3D1">
+  <meta name=3D"description" content=3D"=E6=9C=AC=E6=96=87=E4=B8=BB=E8=A6=
+=81=E5=9F=BA=E4=BA=8E Spring 5.0.6.RELEASE =E6=91=98=E8=A6=81: =E5=8E=9F=E5=
+=88=9B=E5=87=BA=E5=A4=84 http://cmsblogs.com/?p=3D2734 =E3=80=8C=E5=B0=8F=
+=E6=98=8E=E5=93=A5=E3=80=8D=EF=BC=8C=E8=B0=A2=E8=B0=A2=EF=BC=81 =E4=BD=9C=
+=E4=B8=BA=E3=80=8C=E5=B0=8F=E6=98=8E=E5=93=A5=E3=80=8D=E7=9A=84=E5=BF=A0=E5=
+=AE=9E=E8=AF=BB=E8=80=85=EF=BC=8C=E3=80=8C=E8=80=81=E8=89=BF=E8=89=BF=E3=80=
+=8D=E7=95=A5=E4=BD=9C=E4=BF=AE=E6=94=B9=EF=BC=8C=E8=AE=B0=E5=BD=95=E5=9C=A8=
+=E7=90=86=E8=A7=A3=E8=BF=87=E7=A8=8B=E4=B8=AD=EF=BC=8C=E5=8F=82=E8=80=83=E7=
+=9A=84=E8=B5=84=E6=96=99=E3=80=82  =E5=89=8D=E9=9D=A2=E5=8E=86=E7=BB=8F=E5=
+=8D=83=E8=BE=9B=E4=B8=87=E8=8B=A6=E7=BB=88=E4=BA=8E=E5=88=B0=E8=BE=BE=E8=A7=
+=A3=E6=9E=90 bean =E6=A0=87=E7=AD=BE=E6=AD=A5=E9=AA=A4=E6=9D=A5=E4=BA=86=EF=
+=BC=8C=E8=A7=A3=E6=9E=90 bean =E6=A0=87=E7=AD=BE=E7=9A=84=E8=BF=87=E7=A8=8B=
+=E5=85=B6=E5=AE=9E=E5=B0=B1=E6=98=AF=E6=9E=84=E9=80=A0=E4=B8=80=E4=B8=AA Be=
+anDefinition =E5=AF=B9=E8=B1=A1=E7=9A=84=E8=BF=87=E7=A8=8B=E3=80=82&amp;lt;=
+bean&amp;gt; =E5=85=83=E7=B4=A0">
+<meta name=3D"keywords" content=3D"Java,=E6=9E=B6=E6=9E=84,=E5=90=8E=E7=AB=
+=AF,=E6=9C=8D=E5=8A=A1=E7=AB=AF,RocketMQ,MyCAT,=E5=88=86=E5=B8=83=E5=BC=8F=
+=E6=B6=88=E6=81=AF=E9=98=9F=E5=88=97,=E5=88=86=E5=B8=83=E5=BC=8F=E5=AD=98=
+=E5=82=A8,=E6=8A=80=E6=9C=AF=E5=8D=9A=E5=AE=A2,Sharding-JDBC,=E5=88=86=E5=
+=BA=93=E5=88=86=E8=A1=A8">
+<meta property=3D"og:type" content=3D"article">
+<meta property=3D"og:title" content=3D"=E3=80=90=E6=AD=BB=E7=A3=95 Spring=
+=E3=80=91=E2=80=94=E2=80=94 IoC =E4=B9=8B=E8=A7=A3=E6=9E=90 <bean> =E6=A0=
+=87=E7=AD=BE=EF=BC=9ABeanDefinition">
+<meta property=3D"og:url" content=3D"http://svip.iocoder.cn/Spring/IoC-pars=
+e-BeanDefinitions-for-BeanDefinition/index.html">
+<meta property=3D"og:site_name" content=3D"=E8=8A=8B=E9=81=93=E6=BA=90=E7=
+=A0=81 =E2=80=94=E2=80=94 =E7=9F=A5=E8=AF=86=E6=98=9F=E7=90=83">
+<meta property=3D"og:description" content=3D"=E6=9C=AC=E6=96=87=E4=B8=BB=E8=
+=A6=81=E5=9F=BA=E4=BA=8E Spring 5.0.6.RELEASE =E6=91=98=E8=A6=81: =E5=8E=9F=
+=E5=88=9B=E5=87=BA=E5=A4=84 http://cmsblogs.com/?p=3D2734 =E3=80=8C=E5=B0=
+=8F=E6=98=8E=E5=93=A5=E3=80=8D=EF=BC=8C=E8=B0=A2=E8=B0=A2=EF=BC=81 =E4=BD=
+=9C=E4=B8=BA=E3=80=8C=E5=B0=8F=E6=98=8E=E5=93=A5=E3=80=8D=E7=9A=84=E5=BF=A0=
+=E5=AE=9E=E8=AF=BB=E8=80=85=EF=BC=8C=E3=80=8C=E8=80=81=E8=89=BF=E8=89=BF=E3=
+=80=8D=E7=95=A5=E4=BD=9C=E4=BF=AE=E6=94=B9=EF=BC=8C=E8=AE=B0=E5=BD=95=E5=9C=
+=A8=E7=90=86=E8=A7=A3=E8=BF=87=E7=A8=8B=E4=B8=AD=EF=BC=8C=E5=8F=82=E8=80=83=
+=E7=9A=84=E8=B5=84=E6=96=99=E3=80=82  =E5=89=8D=E9=9D=A2=E5=8E=86=E7=BB=8F=
+=E5=8D=83=E8=BE=9B=E4=B8=87=E8=8B=A6=E7=BB=88=E4=BA=8E=E5=88=B0=E8=BE=BE=E8=
+=A7=A3=E6=9E=90 bean =E6=A0=87=E7=AD=BE=E6=AD=A5=E9=AA=A4=E6=9D=A5=E4=BA=86=
+=EF=BC=8C=E8=A7=A3=E6=9E=90 bean =E6=A0=87=E7=AD=BE=E7=9A=84=E8=BF=87=E7=A8=
+=8B=E5=85=B6=E5=AE=9E=E5=B0=B1=E6=98=AF=E6=9E=84=E9=80=A0=E4=B8=80=E4=B8=AA=
+ BeanDefinition =E5=AF=B9=E8=B1=A1=E7=9A=84=E8=BF=87=E7=A8=8B=E3=80=82&amp;=
+lt;bean&amp;gt; =E5=85=83=E7=B4=A0">
+<meta property=3D"og:locale" content=3D"zh-CN">
+<meta property=3D"og:image" content=3D"http://static.iocoder.cn/6abb56b3651=
+c0eee105c510bb9fc6473">
+<meta property=3D"og:updated_time" content=3D"2019-12-28T14:21:02.149Z">
+<meta name=3D"twitter:card" content=3D"summary">
+<meta name=3D"twitter:title" content=3D"=E3=80=90=E6=AD=BB=E7=A3=95 Spring=
+=E3=80=91=E2=80=94=E2=80=94 IoC =E4=B9=8B=E8=A7=A3=E6=9E=90 <bean> =E6=A0=
+=87=E7=AD=BE=EF=BC=9ABeanDefinition">
+<meta name=3D"twitter:description" content=3D"=E6=9C=AC=E6=96=87=E4=B8=BB=
+=E8=A6=81=E5=9F=BA=E4=BA=8E Spring 5.0.6.RELEASE =E6=91=98=E8=A6=81: =E5=8E=
+=9F=E5=88=9B=E5=87=BA=E5=A4=84 http://cmsblogs.com/?p=3D2734 =E3=80=8C=E5=
+=B0=8F=E6=98=8E=E5=93=A5=E3=80=8D=EF=BC=8C=E8=B0=A2=E8=B0=A2=EF=BC=81 =E4=
+=BD=9C=E4=B8=BA=E3=80=8C=E5=B0=8F=E6=98=8E=E5=93=A5=E3=80=8D=E7=9A=84=E5=BF=
+=A0=E5=AE=9E=E8=AF=BB=E8=80=85=EF=BC=8C=E3=80=8C=E8=80=81=E8=89=BF=E8=89=BF=
+=E3=80=8D=E7=95=A5=E4=BD=9C=E4=BF=AE=E6=94=B9=EF=BC=8C=E8=AE=B0=E5=BD=95=E5=
+=9C=A8=E7=90=86=E8=A7=A3=E8=BF=87=E7=A8=8B=E4=B8=AD=EF=BC=8C=E5=8F=82=E8=80=
+=83=E7=9A=84=E8=B5=84=E6=96=99=E3=80=82  =E5=89=8D=E9=9D=A2=E5=8E=86=E7=BB=
+=8F=E5=8D=83=E8=BE=9B=E4=B8=87=E8=8B=A6=E7=BB=88=E4=BA=8E=E5=88=B0=E8=BE=BE=
+=E8=A7=A3=E6=9E=90 bean =E6=A0=87=E7=AD=BE=E6=AD=A5=E9=AA=A4=E6=9D=A5=E4=BA=
+=86=EF=BC=8C=E8=A7=A3=E6=9E=90 bean =E6=A0=87=E7=AD=BE=E7=9A=84=E8=BF=87=E7=
+=A8=8B=E5=85=B6=E5=AE=9E=E5=B0=B1=E6=98=AF=E6=9E=84=E9=80=A0=E4=B8=80=E4=B8=
+=AA BeanDefinition =E5=AF=B9=E8=B1=A1=E7=9A=84=E8=BF=87=E7=A8=8B=E3=80=82&a=
+mp;lt;bean&amp;gt; =E5=85=83=E7=B4=A0">
+<meta name=3D"twitter:image" content=3D"http://static.iocoder.cn/6abb56b365=
+1c0eee105c510bb9fc6473">
+ =20
+ =20
+    <link rel=3D"icon" href=3D"http://svip.iocoder.cn/favicon.png">
+ =20
+ =20
+   =20
+ =20
+  <link rel=3D"stylesheet" href=3D"http://svip.iocoder.cn/css/style.css">
+ =20
+
+    <!-- =E4=B8=8D=E8=92=9C=E5=AD=90=E7=BB=9F=E8=AE=A1 -->
+   =20
+   =20
+</head>
+<body>
+
+  <div id=3D"container">
+    <div id=3D"wrap">
+      <header id=3D"header">
+  <div id=3D"banner"></div>
+  <div id=3D"header-outer" class=3D"outer">
+   =20
+    <div id=3D"header-inner" class=3D"inner">
+      <nav id=3D"sub-nav">
+       =20
+        <a id=3D"nav-search-btn" class=3D"nav-icon" title=3D"=E6=90=9C=E7=
+=B4=A2"></a>
+      </nav>
+      <div id=3D"search-form-wrap">
+        <form action=3D"http://google.com/search" method=3D"get" accept-cha=
+rset=3D"UTF-8" class=3D"search-form"><input type=3D"search" name=3D"q" clas=
+s=3D"search-form-input" placeholder=3D"Search"><button type=3D"submit" clas=
+s=3D"search-form-submit">=EF=80=82</button></form>
+      </div>
+      <nav id=3D"main-nav">
+        <a id=3D"main-nav-toggle" class=3D"nav-icon"></a>
+       =20
+          <a class=3D"main-nav-link" href=3D"http://svip.iocoder.cn/index">=
+=E5=9B=9E=E5=88=B0=E9=A6=96=E9=A1=B5</a>
+       =20
+      </nav>
+     =20
+    </div>
+    <div id=3D"header-title" class=3D"inner">
+      <h1 id=3D"logo-wrap">
+        <a href=3D"http://svip.iocoder.cn/" id=3D"logo">=E8=8A=8B=E9=81=93=
+=E6=BA=90=E7=A0=81 =E2=80=94=E2=80=94 =E7=9F=A5=E8=AF=86=E6=98=9F=E7=90=83<=
+/a>
+      </h1>
+     =20
+    </div>
+  </div>
+</header>
+      <div class=3D"outer">
+        <div>
+            =E6=88=91=E6=98=AF=E4=B8=80=E6=AE=B5=E4=B8=8D=E7=BE=81=E7=9A=84=
+=E5=85=AC=E5=91=8A=EF=BC=81<br>
+            =E8=AE=B0=E5=BE=97=E7=BB=99=E8=89=BF=E8=89=BF=E8=BF=99 3 =E4=B8=
+=AA=E9=A1=B9=E7=9B=AE=E5=8A=A0=E6=B2=B9=EF=BC=8C=E6=B7=BB=E5=8A=A0=E4=B8=80=
+=E4=B8=AA STAR =E5=99=A2=E3=80=82<br>
+            <a href=3D"https://github.com/YunaiV/SpringBoot-Labs" target=3D=
+"_blank" rel=3D"external nofollow noopener noreferrer">https://github.com/Y=
+unaiV/SpringBoot-Labs</a><br>
+            <a href=3D"https://github.com/YunaiV/onemall" target=3D"_blank"=
+ rel=3D"external nofollow noopener noreferrer">https://github.com/YunaiV/on=
+emall</a><br>
+            <a href=3D"https://github.com/YunaiV/ruoyi-vue-pro" target=3D"_=
+blank" rel=3D"external nofollow noopener noreferrer">https://github.com/Yun=
+aiV/ruoyi-vue-pro</a>
+        </div>
+        <section id=3D"main"><article id=3D"post-Spring/IoC-parse-BeanDefin=
+itions-for-BeanDefinition" class=3D"article article-type-post" itemscope=3D=
+"" itemprop=3D"blogPost">
+  <div class=3D"article-meta">
+    <a href=3D"http://svip.iocoder.cn/Spring/IoC-parse-BeanDefinitions-for-=
+BeanDefinition/" class=3D"article-date">
+  <time datetime=3D"2019-03-06T16:00:00.000Z" itemprop=3D"datePublished">20=
+19-03-07</time>
+</a>
+   =20
+  <div class=3D"article-category">
+    <a class=3D"article-category-link" href=3D"http://svip.iocoder.cn/categ=
+ories/Spring/">Spring</a>
+  </div>
+
+  </div>
+  <div class=3D"article-inner">
+   =20
+   =20
+      <header class=3D"article-header">
+       =20
+ =20
+    <h1 class=3D"article-title" itemprop=3D"name">
+      =E3=80=90=E6=AD=BB=E7=A3=95 Spring=E3=80=91=E2=80=94=E2=80=94 IoC =E4=
+=B9=8B=E8=A7=A3=E6=9E=90 &lt;bean&gt; =E6=A0=87=E7=AD=BE=EF=BC=9ABeanDefini=
+tion
+    </h1>
+ =20
+
+      </header>
+   =20
+    <div class=3D"article-entry" itemprop=3D"articleBody">
+     =20
+        <!-- Table of Contents -->
+       =20
+        <p><strong>=E6=9C=AC=E6=96=87=E4=B8=BB=E8=A6=81=E5=9F=BA=E4=BA=8E S=
+pring 5.0.6.RELEASE</strong></p>
+<p>=E6=91=98=E8=A6=81: =E5=8E=9F=E5=88=9B=E5=87=BA=E5=A4=84 <a href=3D"http=
+://cmsblogs.com/?p=3D2734" rel=3D"external nofollow noopener noreferrer" ta=
+rget=3D"_blank">http://cmsblogs.com/?p=3D2734</a> =E3=80=8C=E5=B0=8F=E6=98=
+=8E=E5=93=A5=E3=80=8D=EF=BC=8C=E8=B0=A2=E8=B0=A2=EF=BC=81</p>
+<p>=E4=BD=9C=E4=B8=BA=E3=80=8C=E5=B0=8F=E6=98=8E=E5=93=A5=E3=80=8D=E7=9A=84=
+=E5=BF=A0=E5=AE=9E=E8=AF=BB=E8=80=85=EF=BC=8C=E3=80=8C=E8=80=81=E8=89=BF=E8=
+=89=BF=E3=80=8D=E7=95=A5=E4=BD=9C=E4=BF=AE=E6=94=B9=EF=BC=8C=E8=AE=B0=E5=BD=
+=95=E5=9C=A8=E7=90=86=E8=A7=A3=E8=BF=87=E7=A8=8B=E4=B8=AD=EF=BC=8C=E5=8F=82=
+=E8=80=83=E7=9A=84=E8=B5=84=E6=96=99=E3=80=82</p>
+<hr>
+<p>=E5=89=8D=E9=9D=A2=E5=8E=86=E7=BB=8F=E5=8D=83=E8=BE=9B=E4=B8=87=E8=8B=A6=
+=E7=BB=88=E4=BA=8E=E5=88=B0=E8=BE=BE=E8=A7=A3=E6=9E=90 <code>bean</code> =
+=E6=A0=87=E7=AD=BE=E6=AD=A5=E9=AA=A4=E6=9D=A5=E4=BA=86=EF=BC=8C=E8=A7=A3=E6=
+=9E=90 bean =E6=A0=87=E7=AD=BE=E7=9A=84=E8=BF=87=E7=A8=8B=E5=85=B6=E5=AE=9E=
+=E5=B0=B1=E6=98=AF=E6=9E=84=E9=80=A0=E4=B8=80=E4=B8=AA BeanDefinition =E5=
+=AF=B9=E8=B1=A1=E7=9A=84=E8=BF=87=E7=A8=8B=E3=80=82<code>&lt;bean&gt;</code=
+> =E5=85=83=E7=B4=A0=E6=A0=87=E7=AD=BE=E6=8B=A5=E6=9C=89=E7=9A=84=E9=85=8D=
+=E7=BD=AE=E5=B1=9E=E6=80=A7=EF=BC=8CBeanDefinition =E5=9D=87=E6=8F=90=E4=BE=
+=9B=E4=BA=86=E7=9B=B8=E5=BA=94=E7=9A=84=E5=B1=9E=E6=80=A7=EF=BC=8C=E4=B8=8E=
+=E4=B9=8B=E4=B8=80=E4=B8=80=E5=AF=B9=E5=BA=94=E3=80=82=E6=89=80=E4=BB=A5=EF=
+=BC=8C=E6=88=91=E4=BB=AC=E6=9C=89=E5=BF=85=E8=A6=81=E5=AF=B9 BeanDefinition=
+ <strong>=E5=85=88</strong>=E6=9C=89=E4=B8=80=E4=B8=AA=E6=95=B4=E4=BD=93=E7=
+=9A=84=E8=AE=A4=E8=AF=86=E3=80=82</p>
+<h1 id=3D"1-BeanDefinition"><a href=3D"http://svip.iocoder.cn/Spring/IoC-pa=
+rse-BeanDefinitions-for-BeanDefinition/#1-BeanDefinition" class=3D"headerli=
+nk" title=3D"1. BeanDefinition"></a>1. BeanDefinition</h1><p><code>org.spri=
+ngframework.beans.factory.config.BeanDefinition</code> =EF=BC=8C=E6=98=AF=
+=E4=B8=80=E4=B8=AA=E6=8E=A5=E5=8F=A3=EF=BC=8C=E5=AE=83=E6=8F=8F=E8=BF=B0=E4=
+=BA=86=E4=B8=80=E4=B8=AA Bean =E5=AE=9E=E4=BE=8B=E7=9A=84<strong>=E5=AE=9A=
+=E4=B9=89</strong>=EF=BC=8C=E5=8C=85=E6=8B=AC=E5=B1=9E=E6=80=A7=E5=80=BC=E3=
+=80=81=E6=9E=84=E9=80=A0=E6=96=B9=E6=B3=95=E5=80=BC=E5=92=8C=E7=BB=A7=E6=89=
+=BF=E8=87=AA=E5=AE=83=E7=9A=84=E7=B1=BB=E7=9A=84=E6=9B=B4=E5=A4=9A=E4=BF=A1=
+=E6=81=AF=E3=80=82=E4=BB=A3=E7=A0=81=E5=A6=82=E4=B8=8B=EF=BC=9A</p>
+<figure class=3D"highlight java"><table><tbody><tr><td class=3D"code"><pre>=
+<span class=3D"line">String SCOPE_SINGLETON =3D ConfigurableBeanFactory.SCO=
+PE_SINGLETON;</span><br><span class=3D"line">String SCOPE_PROTOTYPE =3D Con=
+figurableBeanFactory.SCOPE_PROTOTYPE;</span><br><span class=3D"line"></span=
+><br><span class=3D"line"></span><br><span class=3D"line"><span class=3D"ke=
+yword">int</span> ROLE_APPLICATION =3D <span class=3D"number">0</span>;</sp=
+an><br><span class=3D"line"><span class=3D"keyword">int</span> ROLE_SUPPORT=
+ =3D <span class=3D"number">1</span>;</span><br><span class=3D"line"><span =
+class=3D"keyword">int</span> ROLE_INFRASTRUCTURE =3D <span class=3D"number"=
+>2</span>;</span><br><span class=3D"line"></span><br><span class=3D"line"><=
+span class=3D"function"><span class=3D"keyword">void</span> <span class=3D"=
+title">setParentName</span><span class=3D"params">(@Nullable String parentN=
+ame)</span></span>;</span><br><span class=3D"line"><span class=3D"meta">@Nu=
+llable</span></span><br><span class=3D"line"><span class=3D"function">Strin=
+g <span class=3D"title">getParentName</span><span class=3D"params">()</span=
+></span>;</span><br><span class=3D"line"></span><br><span class=3D"line"><s=
+pan class=3D"function"><span class=3D"keyword">void</span> <span class=3D"t=
+itle">setBeanClassName</span><span class=3D"params">(@Nullable String beanC=
+lassName)</span></span>;</span><br><span class=3D"line"><span class=3D"meta=
+">@Nullable</span></span><br><span class=3D"line"><span class=3D"function">=
+String <span class=3D"title">getBeanClassName</span><span class=3D"params">=
+()</span></span>;</span><br><span class=3D"line"></span><br><span class=3D"=
+line"><span class=3D"function"><span class=3D"keyword">void</span> <span cl=
+ass=3D"title">setScope</span><span class=3D"params">(@Nullable String scope=
+)</span></span>;</span><br><span class=3D"line"><span class=3D"meta">@Nulla=
+ble</span></span><br><span class=3D"line"><span class=3D"function">String <=
+span class=3D"title">getScope</span><span class=3D"params">()</span></span>=
+;</span><br><span class=3D"line"></span><br><span class=3D"line"><span clas=
+s=3D"function"><span class=3D"keyword">void</span> <span class=3D"title">se=
+tLazyInit</span><span class=3D"params">(<span class=3D"keyword">boolean</sp=
+an> lazyInit)</span></span>;</span><br><span class=3D"line"><span class=3D"=
+function"><span class=3D"keyword">boolean</span> <span class=3D"title">isLa=
+zyInit</span><span class=3D"params">()</span></span>;</span><br><span class=
+=3D"line"></span><br><span class=3D"line"><span class=3D"function"><span cl=
+ass=3D"keyword">void</span> <span class=3D"title">setDependsOn</span><span =
+class=3D"params">(@Nullable String... dependsOn)</span></span>;</span><br><=
+span class=3D"line"><span class=3D"meta">@Nullable</span></span><br><span c=
+lass=3D"line">String[] getDependsOn();</span><br><span class=3D"line"></spa=
+n><br><span class=3D"line"><span class=3D"function"><span class=3D"keyword"=
+>void</span> <span class=3D"title">setAutowireCandidate</span><span class=
+=3D"params">(<span class=3D"keyword">boolean</span> autowireCandidate)</spa=
+n></span>;</span><br><span class=3D"line"><span class=3D"function"><span cl=
+ass=3D"keyword">boolean</span> <span class=3D"title">isAutowireCandidate</s=
+pan><span class=3D"params">()</span></span>;</span><br><span class=3D"line"=
+></span><br><span class=3D"line"><span class=3D"function"><span class=3D"ke=
+yword">void</span> <span class=3D"title">setPrimary</span><span class=3D"pa=
+rams">(<span class=3D"keyword">boolean</span> primary)</span></span>;</span=
+><br><span class=3D"line"><span class=3D"function"><span class=3D"keyword">=
+boolean</span> <span class=3D"title">isPrimary</span><span class=3D"params"=
+>()</span></span>;</span><br><span class=3D"line"></span><br><span class=3D=
+"line"><span class=3D"function"><span class=3D"keyword">void</span> <span c=
+lass=3D"title">setFactoryBeanName</span><span class=3D"params">(@Nullable S=
+tring factoryBeanName)</span></span>;</span><br><span class=3D"line"><span =
+class=3D"meta">@Nullable</span></span><br><span class=3D"line"><span class=
+=3D"function">String <span class=3D"title">getFactoryBeanName</span><span c=
+lass=3D"params">()</span></span>;</span><br><span class=3D"line"></span><br=
+><span class=3D"line"><span class=3D"function"><span class=3D"keyword">void=
+</span> <span class=3D"title">setFactoryMethodName</span><span class=3D"par=
+ams">(@Nullable String factoryMethodName)</span></span>;</span><br><span cl=
+ass=3D"line"><span class=3D"meta">@Nullable</span></span><br><span class=3D=
+"line"><span class=3D"function">String <span class=3D"title">getFactoryMeth=
+odName</span><span class=3D"params">()</span></span>;</span><br><span class=
+=3D"line"></span><br><span class=3D"line"><span class=3D"function">Construc=
+torArgumentValues <span class=3D"title">getConstructorArgumentValues</span>=
+<span class=3D"params">()</span></span>;</span><br><span class=3D"line"><sp=
+an class=3D"function"><span class=3D"keyword">default</span> <span class=3D=
+"keyword">boolean</span> <span class=3D"title">hasConstructorArgumentValues=
+</span><span class=3D"params">()</span> </span>{</span><br><span class=3D"l=
+ine">	<span class=3D"keyword">return</span> !getConstructorArgumentValues()=
+.isEmpty();</span><br><span class=3D"line">}</span><br><span class=3D"line"=
+></span><br><span class=3D"line"><span class=3D"function">MutablePropertyVa=
+lues <span class=3D"title">getPropertyValues</span><span class=3D"params">(=
+)</span></span>;</span><br><span class=3D"line"><span class=3D"function"><s=
+pan class=3D"keyword">default</span> <span class=3D"keyword">boolean</span>=
+ <span class=3D"title">hasPropertyValues</span><span class=3D"params">()</s=
+pan> </span>{</span><br><span class=3D"line">	<span class=3D"keyword">retur=
+n</span> !getPropertyValues().isEmpty();</span><br><span class=3D"line">}</=
+span><br><span class=3D"line"></span><br><span class=3D"line"><span class=
+=3D"function"><span class=3D"keyword">void</span> <span class=3D"title">set=
+InitMethodName</span><span class=3D"params">(@Nullable String initMethodNam=
+e)</span></span>;</span><br><span class=3D"line"><span class=3D"meta">@Null=
+able</span></span><br><span class=3D"line"><span class=3D"function">String =
+<span class=3D"title">getInitMethodName</span><span class=3D"params">()</sp=
+an></span>;</span><br><span class=3D"line"></span><br><span class=3D"line">=
+<span class=3D"function"><span class=3D"keyword">void</span> <span class=3D=
+"title">setDestroyMethodName</span><span class=3D"params">(@Nullable String=
+ destroyMethodName)</span></span>;</span><br><span class=3D"line"><span cla=
+ss=3D"meta">@Nullable</span></span><br><span class=3D"line"><span class=3D"=
+function">String <span class=3D"title">getDestroyMethodName</span><span cla=
+ss=3D"params">()</span></span>;</span><br><span class=3D"line"></span><br><=
+span class=3D"line"><span class=3D"function"><span class=3D"keyword">void</=
+span> <span class=3D"title">setRole</span><span class=3D"params">(<span cla=
+ss=3D"keyword">int</span> role)</span></span>;</span><br><span class=3D"lin=
+e"><span class=3D"function"><span class=3D"keyword">int</span> <span class=
+=3D"title">getRole</span><span class=3D"params">()</span></span>;</span><br=
+><span class=3D"line"></span><br><span class=3D"line"><span class=3D"functi=
+on"><span class=3D"keyword">void</span> <span class=3D"title">setDescriptio=
+n</span><span class=3D"params">(@Nullable String description)</span></span>=
+;</span><br><span class=3D"line"><span class=3D"meta">@Nullable</span></spa=
+n><br><span class=3D"line"><span class=3D"function">String <span class=3D"t=
+itle">getDescription</span><span class=3D"params">()</span></span>;</span><=
+br><span class=3D"line"></span><br><span class=3D"line"><span class=3D"func=
+tion"><span class=3D"keyword">boolean</span> <span class=3D"title">isSingle=
+ton</span><span class=3D"params">()</span></span>;</span><br><span class=3D=
+"line"></span><br><span class=3D"line"><span class=3D"function"><span class=
+=3D"keyword">boolean</span> <span class=3D"title">isPrototype</span><span c=
+lass=3D"params">()</span></span>;</span><br><span class=3D"line"></span><br=
+><span class=3D"line"><span class=3D"function"><span class=3D"keyword">bool=
+ean</span> <span class=3D"title">isAbstract</span><span class=3D"params">()=
+</span></span>;</span><br><span class=3D"line"></span><br><span class=3D"li=
+ne"><span class=3D"meta">@Nullable</span></span><br><span class=3D"line"><s=
+pan class=3D"function">String <span class=3D"title">getResourceDescription<=
+/span><span class=3D"params">()</span></span>;</span><br><span class=3D"lin=
+e"></span><br><span class=3D"line"><span class=3D"meta">@Nullable</span></s=
+pan><br><span class=3D"line"><span class=3D"function">BeanDefinition <span =
+class=3D"title">getOriginatingBeanDefinition</span><span class=3D"params">(=
+)</span></span>;</span><br></pre></td></tr></tbody></table></figure>
+<p>=E8=99=BD=E7=84=B6=E6=8E=A5=E5=8F=A3=E6=96=B9=E6=B3=95=E6=AF=94=E8=BE=83=
+=E5=A4=9A=EF=BC=8C=E4=BD=86=E6=98=AF=E6=98=AF=E4=B8=8D=E6=98=AF=E4=B8=80=E4=
+=B8=8B=E5=AD=90=E5=92=8C=E6=88=91=E4=BB=AC=E5=B9=B3=E6=97=B6=E4=BD=BF=E7=94=
+=A8 <code>&lt;bean&gt;</code> =E6=A0=87=E7=AD=BE=E7=9A=84=E5=B1=9E=E6=80=A7=
+=EF=BC=8C=E8=83=BD=E5=A4=9F=E5=AF=B9=E5=BA=94=E4=B8=8A=E8=90=BD=E3=80=82</p=
+>
+<h2 id=3D"1-1-BeanDefinition-=E7=9A=84=E7=88=B6=E5=85=B3=E7=B3=BB"><a href=
+=3D"http://svip.iocoder.cn/Spring/IoC-parse-BeanDefinitions-for-BeanDefinit=
+ion/#1-1-BeanDefinition-%E7%9A%84%E7%88%B6%E5%85%B3%E7%B3%BB" class=3D"head=
+erlink" title=3D"1.1 BeanDefinition =E7=9A=84=E7=88=B6=E5=85=B3=E7=B3=BB"><=
+/a>1.1 BeanDefinition =E7=9A=84=E7=88=B6=E5=85=B3=E7=B3=BB</h2><p>BeanDefin=
+ition  =E7=BB=A7=E6=89=BF AttributeAccessor =E5=92=8C BeanMetadataElement =
+=E6=8E=A5=E5=8F=A3=E3=80=82=E4=B8=A4=E4=B8=AA=E6=8E=A5=E5=8F=A3=E5=AE=9A=E4=
+=B9=89=E5=A6=82=E4=B8=8B=EF=BC=9A</p>
+<ul>
+<li><p><code>org.springframework.cor.AttributeAccessor</code> =E6=8E=A5=E5=
+=8F=A3=EF=BC=8C=E5=AE=9A=E4=B9=89=E4=BA=86=E4=B8=8E=E5=85=B6=E5=AE=83=E5=AF=
+=B9=E8=B1=A1=E7=9A=84=EF=BC=88=E5=85=83=E6=95=B0=E6=8D=AE=EF=BC=89=E8=BF=9B=
+=E8=A1=8C=E8=BF=9E=E6=8E=A5=E5=92=8C=E8=AE=BF=E9=97=AE=E7=9A=84=E7=BA=A6=E5=
+=AE=9A=EF=BC=8C=E5=8D=B3=E5=AF=B9=E5=B1=9E=E6=80=A7=E7=9A=84=E4=BF=AE=E6=94=
+=B9=EF=BC=8C=E5=8C=85=E6=8B=AC=E8=8E=B7=E5=8F=96=E3=80=81=E8=AE=BE=E7=BD=AE=
+=E3=80=81=E5=88=A0=E9=99=A4=E3=80=82=E4=BB=A3=E7=A0=81=E5=A6=82=E4=B8=8B=EF=
+=BC=9A</p>
+  <figure class=3D"highlight java"><table><tbody><tr><td class=3D"code"><pr=
+e><span class=3D"line"><span class=3D"keyword">public</span> <span class=3D=
+"class"><span class=3D"keyword">interface</span> <span class=3D"title">Attr=
+ibuteAccessor</span> </span>{</span><br><span class=3D"line"></span><br><sp=
+an class=3D"line">	<span class=3D"function"><span class=3D"keyword">void</s=
+pan> <span class=3D"title">setAttribute</span><span class=3D"params">(Strin=
+g name, @Nullable Object value)</span></span>;</span><br><span class=3D"lin=
+e"></span><br><span class=3D"line">	<span class=3D"meta">@Nullable</span></=
+span><br><span class=3D"line">	<span class=3D"function">Object <span class=
+=3D"title">getAttribute</span><span class=3D"params">(String name)</span></=
+span>;</span><br><span class=3D"line"></span><br><span class=3D"line">	<spa=
+n class=3D"meta">@Nullable</span></span><br><span class=3D"line">	<span cla=
+ss=3D"function">Object <span class=3D"title">removeAttribute</span><span cl=
+ass=3D"params">(String name)</span></span>;</span><br><span class=3D"line">=
+</span><br><span class=3D"line">	<span class=3D"function"><span class=3D"ke=
+yword">boolean</span> <span class=3D"title">hasAttribute</span><span class=
+=3D"params">(String name)</span></span>;</span><br><span class=3D"line"></s=
+pan><br><span class=3D"line">	String[] attributeNames();</span><br><span cl=
+ass=3D"line"></span><br><span class=3D"line">}</span><br></pre></td></tr></=
+tbody></table></figure>
+</li>
+</ul>
+<ul>
+<li><p><code>org.springframework.beans.BeanMetadataElement</code> =E6=8E=A5=
+=E5=8F=A3=EF=BC=8CBean =E5=85=83=E5=AF=B9=E8=B1=A1=E6=8C=81=E6=9C=89=E7=9A=
+=84=E9=85=8D=E7=BD=AE=E5=85=83=E7=B4=A0=E5=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87=
+ <code>#getSource()</code> =E6=96=B9=E6=B3=95=E6=9D=A5=E8=8E=B7=E5=8F=96=E3=
+=80=82=E4=BB=A3=E7=A0=81=E5=A6=82=E4=B8=8B=EF=BC=9A</p>
+  <figure class=3D"highlight java"><table><tbody><tr><td class=3D"code"><pr=
+e><span class=3D"line"><span class=3D"keyword">public</span> <span class=3D=
+"class"><span class=3D"keyword">interface</span> <span class=3D"title">Bean=
+MetadataElement</span> </span>{</span><br><span class=3D"line"></span><br><=
+span class=3D"line">	<span class=3D"meta">@Nullable</span></span><br><span =
+class=3D"line">	<span class=3D"function">Object <span class=3D"title">getSo=
+urce</span><span class=3D"params">()</span></span>;</span><br><span class=
+=3D"line"></span><br><span class=3D"line">}</span><br></pre></td></tr></tbo=
+dy></table></figure>
+</li>
+</ul>
+<h2 id=3D"1-2-BeanDefinition-=E7=9A=84=E5=AD=90=E5=85=B3=E7=B3=BB"><a href=
+=3D"http://svip.iocoder.cn/Spring/IoC-parse-BeanDefinitions-for-BeanDefinit=
+ion/#1-2-BeanDefinition-%E7%9A%84%E5%AD%90%E5%85%B3%E7%B3%BB" class=3D"head=
+erlink" title=3D"1.2 BeanDefinition =E7=9A=84=E5=AD=90=E5=85=B3=E7=B3=BB"><=
+/a>1.2 BeanDefinition =E7=9A=84=E5=AD=90=E5=85=B3=E7=B3=BB</h2><p>BeanDefin=
+ition =E5=AD=90=E5=85=B3=E7=B3=BB=EF=BC=8C=E7=BB=93=E6=9E=84=E5=A6=82=E4=B8=
+=8B=E5=9B=BE=EF=BC=9A</p>
+<p><img src=3D"http://static.iocoder.cn/6abb56b3651c0eee105c510bb9fc6473" a=
+lt=3D"=E7=B1=BB=E5=9B=BE"></p>
+<p>=E6=88=91=E4=BB=AC=E5=B8=B8=E7=94=A8=E7=9A=84=E4=B8=89=E4=B8=AA=E5=AE=9E=
+=E7=8E=B0=E7=B1=BB=E6=9C=89=EF=BC=9A</p>
+<ul>
+<li><code>org.springframework.beans.factory.support.ChildBeanDefinition</co=
+de></li>
+<li><code>org.springframework.beans.factory.support.RootBeanDefinition</cod=
+e></li>
+<li><code>org.springframework.beans.factory.support.GenericBeanDefinition</=
+code></li>
+<li>ChildBeanDefinition=E3=80=81RootBeanDefinition=E3=80=81GenericBeanDefin=
+ition =E4=B8=89=E8=80=85=E9=83=BD=E7=BB=A7=E6=89=BF AbstractBeanDefinition =
+=E6=8A=BD=E8=B1=A1=E7=B1=BB=EF=BC=8C=E5=8D=B3 AbstractBeanDefinition =E5=AF=
+=B9=E4=B8=89=E4=B8=AA=E5=AD=90=E7=B1=BB=E7=9A=84=E5=85=B1=E5=90=8C=E7=9A=84=
+=E7=B1=BB=E4=BF=A1=E6=81=AF=E8=BF=9B=E8=A1=8C=E6=8A=BD=E8=B1=A1=E3=80=82</l=
+i>
+<li>=E5=A6=82=E6=9E=9C=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E4=B8=AD=E5=AE=
+=9A=E4=B9=89=E4=BA=86=E7=88=B6 <code>&lt;bean&gt;</code> =E5=92=8C =E5=AD=
+=90 <code>&lt;bean&gt;</code> =EF=BC=8C=E5=88=99=E7=88=B6 <code>&lt;bean&gt=
+;</code> =E7=94=A8 RootBeanDefinition =E8=A1=A8=E7=A4=BA=EF=BC=8C=E5=AD=90 =
+<code>&lt;bean&gt;</code>  =E7=94=A8 ChildBeanDefinition =E8=A1=A8=E7=A4=BA=
+=EF=BC=8C=E8=80=8C=E6=B2=A1=E6=9C=89=E7=88=B6 <code>&lt;bean&gt;</code> =E7=
+=9A=84=E5=B0=B1=E4=BD=BF=E7=94=A8RootBeanDefinition =E8=A1=A8=E7=A4=BA=E3=
+=80=82</li>
+<li>GenericBeanDefinition =E4=B8=BA=E4=B8=80=E7=AB=99=E5=BC=8F=E6=9C=8D=E5=
+=8A=A1=E7=B1=BB=E3=80=82=F0=9F=98=88 =E8=BF=99=E4=B8=AA=E8=A7=A3=E9=87=8A=
+=E4=B8=80=E8=84=B8=E6=87=B5=E9=80=BC=EF=BC=9F=E6=B2=A1=E4=BA=8B=EF=BC=8C=E7=
+=BB=A7=E7=BB=AD=E5=BE=80=E4=B8=8B=E7=9C=8B=E3=80=82</li>
+</ul>
+<h1 id=3D"2-=E8=A7=A3=E6=9E=90-Bean-=E6=A0=87=E7=AD=BE"><a href=3D"http://s=
+vip.iocoder.cn/Spring/IoC-parse-BeanDefinitions-for-BeanDefinition/#2-%E8%A=
+7%A3%E6%9E%90-Bean-%E6%A0%87%E7%AD%BE" class=3D"headerlink" title=3D"2. =E8=
+=A7=A3=E6=9E=90 Bean =E6=A0=87=E7=AD=BE"></a>2. =E8=A7=A3=E6=9E=90 Bean =E6=
+=A0=87=E7=AD=BE</h1><p>=E5=9C=A8 <code>BeanDefinitionParserDelegate#parseBe=
+anDefinitionElement(Element ele, String beanName, BeanDefinition containing=
+Bean)</code> =E6=96=B9=E6=B3=95=E4=B8=AD=EF=BC=8C=E5=AE=8C=E6=88=90=E8=A7=
+=A3=E6=9E=90=E5=90=8E=EF=BC=8C=E8=BF=94=E5=9B=9E=E7=9A=84=E6=98=AF=E4=B8=80=
+=E4=B8=AA=E5=B7=B2=E7=BB=8F=E5=AE=8C=E6=88=90=E5=AF=B9 <code>&lt;bean&gt;</=
+code> =E6=A0=87=E7=AD=BE=E8=A7=A3=E6=9E=90=E7=9A=84 BeanDefinition =E5=AE=
+=9E=E4=BE=8B=E3=80=82</p>
+<h2 id=3D"2-1-createBeanDefinition"><a href=3D"http://svip.iocoder.cn/Sprin=
+g/IoC-parse-BeanDefinitions-for-BeanDefinition/#2-1-createBeanDefinition" c=
+lass=3D"headerlink" title=3D"2.1 createBeanDefinition"></a>2.1 createBeanDe=
+finition</h2><p>=E5=9C=A8=E8=AF=A5=E6=96=B9=E6=B3=95=E5=86=85=E9=83=A8=EF=
+=BC=8C=E9=A6=96=E5=85=88=E8=B0=83=E7=94=A8 <code>#createBeanDefinition(Stri=
+ng className, String parentName)</code> =E6=96=B9=E6=B3=95=EF=BC=8C=E5=88=
+=9B=E5=BB=BA AbstractBeanDefinition =E5=AF=B9=E8=B1=A1=E3=80=82=E4=BB=A3=E7=
+=A0=81=E5=A6=82=E4=B8=8B=EF=BC=9A</p>
+<figure class=3D"highlight java"><table><tbody><tr><td class=3D"code"><pre>=
+<span class=3D"line"><span class=3D"function"><span class=3D"keyword">prote=
+cted</span> AbstractBeanDefinition <span class=3D"title">createBeanDefiniti=
+on</span><span class=3D"params">(@Nullable String className, @Nullable Stri=
+ng parentName)</span></span></span><br><span class=3D"line"><span class=3D"=
+function">		<span class=3D"keyword">throws</span> ClassNotFoundException </=
+span>{</span><br><span class=3D"line">	<span class=3D"keyword">return</span=
+> BeanDefinitionReaderUtils.createBeanDefinition(</span><br><span class=3D"=
+line">			parentName, className, <span class=3D"keyword">this</span>.readerC=
+ontext.getBeanClassLoader());</span><br><span class=3D"line">}</span><br></=
+pre></td></tr></tbody></table></figure>
+<ul>
+<li><p>=E5=A7=94=E6=89=98 BeanDefinitionReaderUtils =E5=88=9B=E5=BB=BA=EF=
+=BC=8C=E4=BB=A3=E7=A0=81=E5=A6=82=E4=B8=8B=EF=BC=9A</p>
+  <figure class=3D"highlight java"><table><tbody><tr><td class=3D"code"><pr=
+e><span class=3D"line"><span class=3D"comment">// BeanDefinitionReaderUtils=
+.java</span></span><br><span class=3D"line"></span><br><span class=3D"line"=
+><span class=3D"function"><span class=3D"keyword">public</span> <span class=
+=3D"keyword">static</span> AbstractBeanDefinition <span class=3D"title">cre=
+ateBeanDefinition</span><span class=3D"params">(</span></span></span><br><s=
+pan class=3D"line"><span class=3D"function"><span class=3D"params">        =
+@Nullable String parentName, @Nullable String className, @Nullable ClassLoa=
+der classLoader)</span> <span class=3D"keyword">throws</span> ClassNotFound=
+Exception </span>{</span><br><span class=3D"line">    <span class=3D"commen=
+t">// =E5=88=9B=E5=BB=BA GenericBeanDefinition =E5=AF=B9=E8=B1=A1</span></s=
+pan><br><span class=3D"line">    GenericBeanDefinition bd =3D <span class=
+=3D"keyword">new</span> GenericBeanDefinition();</span><br><span class=3D"l=
+ine">    <span class=3D"comment">// =E8=AE=BE=E7=BD=AE parentName</span></s=
+pan><br><span class=3D"line">    bd.setParentName(parentName);</span><br><s=
+pan class=3D"line">    <span class=3D"keyword">if</span> (className !=3D <s=
+pan class=3D"keyword">null</span>) {</span><br><span class=3D"line">       =
+ <span class=3D"comment">// =E8=AE=BE=E7=BD=AE beanClass</span></span><br><=
+span class=3D"line">        <span class=3D"keyword">if</span> (classLoader =
+!=3D <span class=3D"keyword">null</span>) {</span><br><span class=3D"line">=
+            bd.setBeanClass(ClassUtils.forName(className, classLoader));</s=
+pan><br><span class=3D"line">        <span class=3D"comment">// =E8=AE=BE=
+=E7=BD=AE beanClassName</span></span><br><span class=3D"line">        } <sp=
+an class=3D"keyword">else</span> {</span><br><span class=3D"line">         =
+   bd.setBeanClassName(className);</span><br><span class=3D"line">        }=
+</span><br><span class=3D"line">    }</span><br><span class=3D"line">    <s=
+pan class=3D"keyword">return</span> bd;</span><br><span class=3D"line">}</s=
+pan><br></pre></td></tr></tbody></table></figure>
+<ul>
+<li>=E8=AF=A5=E6=96=B9=E6=B3=95=E4=B8=BB=E8=A6=81=E6=98=AF=EF=BC=8C=E5=88=
+=9B=E5=BB=BA GenericBeanDefinition =E5=AF=B9=E8=B1=A1=EF=BC=8C=E5=B9=B6=E8=
+=AE=BE=E7=BD=AE <code>parentName</code>=E3=80=81<code>className</code>=E3=
+=80=81<code>beanClass</code> =E5=B1=9E=E6=80=A7=E3=80=82</li>
+</ul>
+</li>
+</ul>
+<h2 id=3D"2-2-parseBeanDefinitionAttributes"><a href=3D"http://svip.iocoder=
+.cn/Spring/IoC-parse-BeanDefinitions-for-BeanDefinition/#2-2-parseBeanDefin=
+itionAttributes" class=3D"headerlink" title=3D"2.2 parseBeanDefinitionAttri=
+butes"></a>2.2 parseBeanDefinitionAttributes</h2><p>=E5=88=9B=E5=BB=BA=E5=
+=AE=8C GenericBeanDefinition =E5=AE=9E=E4=BE=8B=E5=90=8E=EF=BC=8C=E5=86=8D=
+=E8=B0=83=E7=94=A8 <code>#parseBeanDefinitionAttributes(Element ele, String=
+ beanName, BeanDefinition containingBean, AbstractBeanDefinition bd)</code>=
+ =E6=96=B9=E6=B3=95=EF=BC=8C=E8=AF=A5=E6=96=B9=E6=B3=95=E5=B0=86=E5=88=9B=
+=E5=BB=BA=E5=A5=BD=E7=9A=84 GenericBeanDefinition =E5=AE=9E=E4=BE=8B=E5=BD=
+=93=E5=81=9A=E5=8F=82=E6=95=B0=EF=BC=8C=E5=AF=B9 <code>bean</code> =E6=A0=
+=87=E7=AD=BE=E7=9A=84=E6=89=80=E6=9C=89=E5=B1=9E=E6=80=A7=E8=BF=9B=E8=A1=8C=
+=E8=A7=A3=E6=9E=90=EF=BC=8C=E5=A6=82=E4=B8=8B=EF=BC=9A</p>
+<figure class=3D"highlight java"><table><tbody><tr><td class=3D"code"><pre>=
+<span class=3D"line"><span class=3D"comment">// BeanDefinitionParserDelegat=
+e.java</span></span><br><span class=3D"line"></span><br><span class=3D"line=
+"><span class=3D"function"><span class=3D"keyword">public</span> AbstractBe=
+anDefinition <span class=3D"title">parseBeanDefinitionAttributes</span><spa=
+n class=3D"params">(Element ele, String beanName,</span></span></span><br><=
+span class=3D"line"><span class=3D"function"><span class=3D"params">       =
+ @Nullable BeanDefinition containingBean, AbstractBeanDefinition bd)</span>=
+ </span>{</span><br><span class=3D"line">    <span class=3D"comment">// =E8=
+=A7=A3=E6=9E=90 scope =E5=B1=9E=E6=80=A7</span></span><br><span class=3D"li=
+ne">    <span class=3D"keyword">if</span> (ele.hasAttribute(SINGLETON_ATTRI=
+BUTE)) {</span><br><span class=3D"line">        error(<span class=3D"string=
+">"Old 1.x 'singleton' attribute in use - upgrade to 'scope' declaration"</=
+span>, ele);</span><br><span class=3D"line">    } <span class=3D"keyword">e=
+lse</span> <span class=3D"keyword">if</span> (ele.hasAttribute(SCOPE_ATTRIB=
+UTE)) {</span><br><span class=3D"line">        bd.setScope(ele.getAttribute=
+(SCOPE_ATTRIBUTE));</span><br><span class=3D"line">    } <span class=3D"key=
+word">else</span> <span class=3D"keyword">if</span> (containingBean !=3D <s=
+pan class=3D"keyword">null</span>) {</span><br><span class=3D"line">       =
+ <span class=3D"comment">// Take default from containing bean in case of an=
+ inner bean definition.</span></span><br><span class=3D"line">        bd.se=
+tScope(containingBean.getScope());</span><br><span class=3D"line">    }</sp=
+an><br><span class=3D"line"></span><br><span class=3D"line">    <span class=
+=3D"comment">// =E8=A7=A3=E6=9E=90 abstract =E5=B1=9E=E6=80=A7</span></span=
+><br><span class=3D"line">    <span class=3D"keyword">if</span> (ele.hasAtt=
+ribute(ABSTRACT_ATTRIBUTE)) {</span><br><span class=3D"line">        bd.set=
+Abstract(TRUE_VALUE.equals(ele.getAttribute(ABSTRACT_ATTRIBUTE)));</span><b=
+r><span class=3D"line">    }</span><br><span class=3D"line"></span><br><spa=
+n class=3D"line">    <span class=3D"comment">// =E8=A7=A3=E6=9E=90 lazy-ini=
+t =E5=B1=9E=E6=80=A7</span></span><br><span class=3D"line">    String lazyI=
+nit =3D ele.getAttribute(LAZY_INIT_ATTRIBUTE);</span><br><span class=3D"lin=
+e">    <span class=3D"keyword">if</span> (DEFAULT_VALUE.equals(lazyInit)) {=
+</span><br><span class=3D"line">        lazyInit =3D <span class=3D"keyword=
+">this</span>.defaults.getLazyInit();</span><br><span class=3D"line">    }<=
+/span><br><span class=3D"line">    bd.setLazyInit(TRUE_VALUE.equals(lazyIni=
+t));</span><br><span class=3D"line"></span><br><span class=3D"line">    <sp=
+an class=3D"comment">// =E8=A7=A3=E6=9E=90 autowire =E5=B1=9E=E6=80=A7</spa=
+n></span><br><span class=3D"line">    String autowire =3D ele.getAttribute(=
+AUTOWIRE_ATTRIBUTE);</span><br><span class=3D"line">    bd.setAutowireMode(=
+getAutowireMode(autowire));</span><br><span class=3D"line"></span><br><span=
+ class=3D"line">    <span class=3D"comment">// =E8=A7=A3=E6=9E=90 depends-o=
+n =E5=B1=9E=E6=80=A7</span></span><br><span class=3D"line">    <span class=
+=3D"keyword">if</span> (ele.hasAttribute(DEPENDS_ON_ATTRIBUTE)) {</span><br=
+><span class=3D"line">        String dependsOn =3D ele.getAttribute(DEPENDS=
+_ON_ATTRIBUTE);</span><br><span class=3D"line">        bd.setDependsOn(Stri=
+ngUtils.tokenizeToStringArray(dependsOn, MULTI_VALUE_ATTRIBUTE_DELIMITERS))=
+;</span><br><span class=3D"line">    }</span><br><span class=3D"line"></spa=
+n><br><span class=3D"line">    <span class=3D"comment">// =E8=A7=A3=E6=9E=
+=90 autowire-candidate =E5=B1=9E=E6=80=A7</span></span><br><span class=3D"l=
+ine">    String autowireCandidate =3D ele.getAttribute(AUTOWIRE_CANDIDATE_A=
+TTRIBUTE);</span><br><span class=3D"line">    <span class=3D"keyword">if</s=
+pan> (<span class=3D"string">""</span>.equals(autowireCandidate) || DEFAULT=
+_VALUE.equals(autowireCandidate)) {</span><br><span class=3D"line">        =
+String candidatePattern =3D <span class=3D"keyword">this</span>.defaults.ge=
+tAutowireCandidates();</span><br><span class=3D"line">        <span class=
+=3D"keyword">if</span> (candidatePattern !=3D <span class=3D"keyword">null<=
+/span>) {</span><br><span class=3D"line">            String[] patterns =3D =
+StringUtils.commaDelimitedListToStringArray(candidatePattern);</span><br><s=
+pan class=3D"line">            bd.setAutowireCandidate(PatternMatchUtils.si=
+mpleMatch(patterns, beanName));</span><br><span class=3D"line">        }</s=
+pan><br><span class=3D"line">    } <span class=3D"keyword">else</span> {</s=
+pan><br><span class=3D"line">        bd.setAutowireCandidate(TRUE_VALUE.equ=
+als(autowireCandidate));</span><br><span class=3D"line">    }</span><br><sp=
+an class=3D"line"></span><br><span class=3D"line">    <span class=3D"commen=
+t">// =E8=A7=A3=E6=9E=90 primary =E6=A0=87=E7=AD=BE</span></span><br><span =
+class=3D"line">    <span class=3D"keyword">if</span> (ele.hasAttribute(PRIM=
+ARY_ATTRIBUTE)) {</span><br><span class=3D"line">        bd.setPrimary(TRUE=
+_VALUE.equals(ele.getAttribute(PRIMARY_ATTRIBUTE)));</span><br><span class=
+=3D"line">    }</span><br><span class=3D"line"></span><br><span class=3D"li=
+ne">    <span class=3D"comment">// =E8=A7=A3=E6=9E=90 init-method =E5=B1=9E=
+=E6=80=A7</span></span><br><span class=3D"line">    <span class=3D"keyword"=
+>if</span> (ele.hasAttribute(INIT_METHOD_ATTRIBUTE)) {</span><br><span clas=
+s=3D"line">        String initMethodName =3D ele.getAttribute(INIT_METHOD_A=
+TTRIBUTE);</span><br><span class=3D"line">        bd.setInitMethodName(init=
+MethodName);</span><br><span class=3D"line">    } <span class=3D"keyword">e=
+lse</span> <span class=3D"keyword">if</span> (<span class=3D"keyword">this<=
+/span>.defaults.getInitMethod() !=3D <span class=3D"keyword">null</span>) {=
+</span><br><span class=3D"line">        bd.setInitMethodName(<span class=3D=
+"keyword">this</span>.defaults.getInitMethod());</span><br><span class=3D"l=
+ine">        bd.setEnforceInitMethod(<span class=3D"keyword">false</span>);=
+</span><br><span class=3D"line">    }</span><br><span class=3D"line"></span=
+><br><span class=3D"line">    <span class=3D"comment">// =E8=A7=A3=E6=9E=90=
+ destroy-method =E5=B1=9E=E6=80=A7</span></span><br><span class=3D"line">  =
+  <span class=3D"keyword">if</span> (ele.hasAttribute(DESTROY_METHOD_ATTRIB=
+UTE)) {</span><br><span class=3D"line">        String destroyMethodName =3D=
+ ele.getAttribute(DESTROY_METHOD_ATTRIBUTE);</span><br><span class=3D"line"=
+>        bd.setDestroyMethodName(destroyMethodName);</span><br><span class=
+=3D"line">    } <span class=3D"keyword">else</span> <span class=3D"keyword"=
+>if</span> (<span class=3D"keyword">this</span>.defaults.getDestroyMethod()=
+ !=3D <span class=3D"keyword">null</span>) {</span><br><span class=3D"line"=
+>        bd.setDestroyMethodName(<span class=3D"keyword">this</span>.defaul=
+ts.getDestroyMethod());</span><br><span class=3D"line">        bd.setEnforc=
+eDestroyMethod(<span class=3D"keyword">false</span>);</span><br><span class=
+=3D"line">    }</span><br><span class=3D"line"></span><br><span class=3D"li=
+ne">    <span class=3D"comment">// =E8=A7=A3=E6=9E=90 factory-method =E5=B1=
+=9E=E6=80=A7</span></span><br><span class=3D"line">    <span class=3D"keywo=
+rd">if</span> (ele.hasAttribute(FACTORY_METHOD_ATTRIBUTE)) {</span><br><spa=
+n class=3D"line">        bd.setFactoryMethodName(ele.getAttribute(FACTORY_M=
+ETHOD_ATTRIBUTE));</span><br><span class=3D"line">    }</span><br><span cla=
+ss=3D"line">    <span class=3D"keyword">if</span> (ele.hasAttribute(FACTORY=
+_BEAN_ATTRIBUTE)) {</span><br><span class=3D"line">        bd.setFactoryBea=
+nName(ele.getAttribute(FACTORY_BEAN_ATTRIBUTE));</span><br><span class=3D"l=
+ine">    }</span><br><span class=3D"line"></span><br><span class=3D"line"> =
+   <span class=3D"keyword">return</span> bd;</span><br><span class=3D"line"=
+>}</span><br></pre></td></tr></tbody></table></figure>
+<p>=E4=BB=8E=E4=B8=8A=E9=9D=A2=E4=BB=A3=E7=A0=81=E6=88=91=E4=BB=AC=E5=8F=AF=
+=E4=BB=A5=E6=B8=85=E6=99=B0=E5=9C=B0=E7=9C=8B=E5=88=B0=E5=AF=B9 <code>bean<=
+/code> =E6=A0=87=E7=AD=BE=E5=B1=9E=E6=80=A7=E7=9A=84=E8=A7=A3=E6=9E=90=EF=
+=BC=8C=E8=BF=99=E4=BA=9B=E5=B1=9E=E6=80=A7=E6=88=91=E4=BB=AC=E5=9C=A8=E5=B7=
+=A5=E4=BD=9C=E4=B8=AD=E9=83=BD=E6=88=96=E5=A4=9A=E6=88=96=E5=B0=91=E7=94=A8=
+=E5=88=B0=E8=BF=87=E3=80=82</p>
+<h1 id=3D"3-=E4=B8=8B=E6=96=87=E9=A2=84=E5=91=8A"><a href=3D"http://svip.io=
+coder.cn/Spring/IoC-parse-BeanDefinitions-for-BeanDefinition/#3-%E4%B8%8B%E=
+6%96%87%E9%A2%84%E5%91%8A" class=3D"headerlink" title=3D"3. =E4=B8=8B=E6=96=
+=87=E9=A2=84=E5=91=8A"></a>3. =E4=B8=8B=E6=96=87=E9=A2=84=E5=91=8A</h1><p>=
+=E5=AE=8C=E6=88=90 <code>bean</code> =E6=A0=87=E7=AD=BE=E7=9A=84=E5=9F=BA=
+=E6=9C=AC=E5=B1=9E=E6=80=A7=E8=A7=A3=E6=9E=90=E5=90=8E=EF=BC=8C=E4=BC=9A=E4=
+=BE=9D=E6=AC=A1=E8=B0=83=E7=94=A8 BeanDefinitionParserDelegate =E7=9A=84 <c=
+ode>#parseMetaElements(lement ele, BeanMetadataAttributeAccessor attributeA=
+ccessor)</code>=E3=80=81<code>#parseLookupOverrideSubElements(Element beanE=
+le, MethodOverrides overrides)</code>=E3=80=81<code>#parseReplacedMethodSub=
+Elements(Element beanEle, MethodOverrides overrides)</code> =E6=96=B9=E6=B3=
+=95=EF=BC=8C=E5=88=86=E5=88=AB=E5=AF=B9=E5=AD=90=E5=85=83=E7=B4=A0 <code>me=
+ta</code>=E3=80=81<code>lookup-method</code>=E3=80=81<code>replace-method</=
+code> =E5=85=83=E7=B4=A0=E5=AE=8C=E6=88=90=E8=A7=A3=E6=9E=90=E3=80=82=E4=B8=
+=8B=E7=AF=87=E5=8D=9A=E6=96=87=E5=B0=86=E4=BC=9A=E5=AF=B9=E8=BF=99=E4=B8=89=
+=E4=B8=AA=E5=AD=90=E5=85=83=E7=B4=A0=E8=BF=9B=E8=A1=8C=E8=AF=A6=E7=BB=86=E8=
+=AF=B4=E6=98=8E=E3=80=82</p>
+
+     =20
+    </div>
+    <!--
+        <footer class=3D"article-footer">
+          <a data-url=3D"http://svip.iocoder.cn/Spring/IoC-parse-BeanDefini=
+tions-for-BeanDefinition/" data-id=3D"ckll0xzei00f3zrfj0c3cueo4" class=3D"a=
+rticle-share-link">=E5=88=86=E4=BA=AB</a>
+         =20
+         =20
+         =20
+        </footer>
+    -->
+  </div>
+ =20
+    <!--
+       =20
+       =20
+<nav id=3D"article-nav">
+ =20
+    <a href=3D"/Spring/IoC-parse-BeanDefinitions-for-meta-and-look-method-a=
+nd-replace-method/" id=3D"article-nav-newer" class=3D"article-nav-link-wrap=
+">
+      <strong class=3D"article-nav-caption">=E4=B8=8A=E4=B8=80=E7=AF=87</st=
+rong>
+      <div class=3D"article-nav-title">
+       =20
+          =E3=80=90=E6=AD=BB=E7=A3=95 Spring=E3=80=91=E2=80=94=E2=80=94 IoC=
+ =E4=B9=8B=E8=A7=A3=E6=9E=90 &lt;bean&gt; =E6=A0=87=E7=AD=BE=EF=BC=9Ameta=
+=E3=80=81lookup-method=E3=80=81replace-method
+       =20
+      </div>
+    </a>
+ =20
+ =20
+    <a href=3D"/Spring/IoC-parse-BeanDefinitions-in-processBeanDefinition/"=
+ id=3D"article-nav-older" class=3D"article-nav-link-wrap">
+      <strong class=3D"article-nav-caption">=E4=B8=8B=E4=B8=80=E7=AF=87</st=
+rong>
+      <div class=3D"article-nav-title">=E3=80=90=E6=AD=BB=E7=A3=95 Spring=
+=E3=80=91=E2=80=94=E2=80=94 IoC =E4=B9=8B=E8=A7=A3=E6=9E=90 &lt;bean&gt; =
+=E6=A0=87=E7=AD=BE=EF=BC=9A=E5=BC=80=E5=90=AF=E8=A7=A3=E6=9E=90=E8=BF=9B=E7=
+=A8=8B</div>
+    </a>
+ =20
+</nav>
+
+    -->
+ =20
+</article>
+=20
+     <!--
+
+  <div class=3D"comments" id=3D"comments">
+   =20
+    =20
+      =20
+      =20
+     =20
+     =20
+  </div>
+=20
+
+-->
+
+ =20
+
+</section>
+          =20
+    <aside id=3D"sidebar">
+ =20
+   =20
+    <div class=3D"widget-wrap">
+   =20
+      <div class=3D"widget" id=3D"toc-widget-fixed">
+     =20
+        <strong class=3D"toc-title">=E6=96=87=E7=AB=A0=E7=9B=AE=E5=BD=95</s=
+trong>
+        <div class=3D"toc-widget-list">
+              <ol class=3D"toc"><li class=3D"toc-item toc-level-1"><a class=
+=3D"toc-link" href=3D"http://svip.iocoder.cn/Spring/IoC-parse-BeanDefinitio=
+ns-for-BeanDefinition/#1-BeanDefinition"><span class=3D"toc-number">1.</spa=
+n> <span class=3D"toc-text">1. BeanDefinition</span></a><ol class=3D"toc-ch=
+ild"><li class=3D"toc-item toc-level-2"><a class=3D"toc-link" href=3D"http:=
+//svip.iocoder.cn/Spring/IoC-parse-BeanDefinitions-for-BeanDefinition/#1-1-=
+BeanDefinition-%E7%9A%84%E7%88%B6%E5%85%B3%E7%B3%BB"><span class=3D"toc-num=
+ber">1.1.</span> <span class=3D"toc-text">1.1 BeanDefinition =E7=9A=84=E7=
+=88=B6=E5=85=B3=E7=B3=BB</span></a></li><li class=3D"toc-item toc-level-2">=
+<a class=3D"toc-link" href=3D"http://svip.iocoder.cn/Spring/IoC-parse-BeanD=
+efinitions-for-BeanDefinition/#1-2-BeanDefinition-%E7%9A%84%E5%AD%90%E5%85%=
+B3%E7%B3%BB"><span class=3D"toc-number">1.2.</span> <span class=3D"toc-text=
+">1.2 BeanDefinition =E7=9A=84=E5=AD=90=E5=85=B3=E7=B3=BB</span></a></li></=
+ol></li><li class=3D"toc-item toc-level-1"><a class=3D"toc-link" href=3D"ht=
+tp://svip.iocoder.cn/Spring/IoC-parse-BeanDefinitions-for-BeanDefinition/#2=
+-%E8%A7%A3%E6%9E%90-Bean-%E6%A0%87%E7%AD%BE"><span class=3D"toc-number">2.<=
+/span> <span class=3D"toc-text">2. =E8=A7=A3=E6=9E=90 Bean =E6=A0=87=E7=AD=
+=BE</span></a><ol class=3D"toc-child"><li class=3D"toc-item toc-level-2"><a=
+ class=3D"toc-link" href=3D"http://svip.iocoder.cn/Spring/IoC-parse-BeanDef=
+initions-for-BeanDefinition/#2-1-createBeanDefinition"><span class=3D"toc-n=
+umber">2.1.</span> <span class=3D"toc-text">2.1 createBeanDefinition</span>=
+</a></li><li class=3D"toc-item toc-level-2"><a class=3D"toc-link" href=3D"h=
+ttp://svip.iocoder.cn/Spring/IoC-parse-BeanDefinitions-for-BeanDefinition/#=
+2-2-parseBeanDefinitionAttributes"><span class=3D"toc-number">2.2.</span> <=
+span class=3D"toc-text">2.2 parseBeanDefinitionAttributes</span></a></li></=
+ol></li><li class=3D"toc-item toc-level-1"><a class=3D"toc-link" href=3D"ht=
+tp://svip.iocoder.cn/Spring/IoC-parse-BeanDefinitions-for-BeanDefinition/#3=
+-%E4%B8%8B%E6%96%87%E9%A2%84%E5%91%8A"><span class=3D"toc-number">3.</span>=
+ <span class=3D"toc-text">3. =E4=B8=8B=E6=96=87=E9=A2=84=E5=91=8A</span></a=
+></li></ol>
+          </div>
+      </div>
+    </div>
+
+ =20
+</aside>
+
+      </div>
+      <footer id=3D"footer">
+ =20
+  <div class=3D"outer">
+    <div id=3D"footer-left">
+      =C2=A9 2014 - 2022 =E8=8A=8B=E9=81=93=E6=BA=90=E7=A0=81&nbsp;|&nbsp;
+      <!--
+      =E4=B8=BB=E9=A2=98 <a href=3D"https://github.com/giscafer/hexo-theme-=
+cafe/" target=3D"_blank">Cafe</a>
+      -->
+    </div>
+    <!--
+     <div id=3D"footer-right">
+      =E8=81=94=E7=B3=BB=E6=96=B9=E5=BC=8F&nbsp;|&nbsp;http://svip.iocoder.=
+cn
+    </div>
+    -->
+    <span style=3D"display: inline;" id=3D"busuanzi_container_site_uv">=E6=
+=80=BB=E8=AE=BF=E5=AE=A2=E6=95=B0 <span id=3D"busuanzi_value_site_uv" font=
+=3D"=E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91"></span> =E6=AC=A1</span>
+                          &amp;&amp; <span style=3D"display: inline;" id=3D=
+"busuanzi_container_site_pv">=E6=80=BB=E8=AE=BF=E9=97=AE=E9=87=8F <span id=
+=3D"busuanzi_value_site_pv" font=3D"=E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91"><=
+/span> =E6=AC=A1
+  </span></div>
+
+</footer>
+=20
+
+    </div>
+    <nav id=3D"mobile-nav">
+ =20
+    <a href=3D"http://svip.iocoder.cn/index" class=3D"mobile-nav-link">=E5=
+=9B=9E=E5=88=B0=E9=A6=96=E9=A1=B5</a>
+ =20
+</nav>
+    <img class=3D"back-to-top-btn" src=3D"http://svip.iocoder.cn/images/fly=
+-to-top.png">
+
+     =20
+
+ =20
+
+ =20
+
+
+
+
+
+
+
+<!-- author:forvoid begin -->
+<!-- author:forvoid begin -->
+
+<!-- author:forvoid end -->
+
+<!-- author:forvoid end -->
+
+
+ =20
+   =20
+
+   =20
+    </div></body></html>
+------MultipartBoundary--jHVLwRvJjted208zWUknkT3nHbY4y6AJCz2o4edj2i----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://svip.iocoder.cn/css/style.css
+
+@charset "utf-8";
+
+body { width: 100%; }
+
+body::before, body::after { content: ""; display: table; }
+
+body::after { clear: both; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, b=
+lockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, i=
+mg, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt,=
+ dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoo=
+t, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px; outline: 0px=
+; font-weight: inherit; font-style: inherit; font-family: inherit; font-siz=
+e: 100%; vertical-align: baseline; }
+
+body { line-height: 1; color: rgb(0, 0, 0); background: rgb(255, 255, 255);=
+ }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: separate; border-spacing: 0px; vertical-align: mid=
+dle; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: mi=
+ddle; }
+
+a img { border: none; }
+
+input, button { margin: 0px; padding: 0px; }
+
+@font-face { font-family: FontAwesome; font-style: normal; font-weight: nor=
+mal; src: url("fonts/fontawesome-webfont.eot?#iefix&v=3D#4.0.3") format("em=
+bedded-opentype"), url("fonts/fontawesome-webfont.woff?v=3D#4.0.3") format(=
+"woff"), url("fonts/fontawesome-webfont.ttf?v=3D#4.0.3") format("truetype")=
+, url("fonts/fontawesome-webfont.svg#fontawesomeregular?v=3D#4.0.3") format=
+("svg"); }
+
+html, body, #container { height: 100%; }
+
+body { background: rgb(245, 245, 213); font: 16px "Helvetica Neue", Helveti=
+ca, Arial, sans-serif; text-size-adjust: 100%; }
+
+.outer { max-width: 1220px; margin: 0px auto; padding: 0px 20px; }
+
+.outer::before, .outer::after { content: ""; display: table; }
+
+.outer::after { clear: both; }
+
+.inner { display: inline; float: left; width: 98.3333%; margin: 0px 0.83333=
+3%; }
+
+.left, .alignleft { float: left; }
+
+.right, .alignright { float: right; }
+
+.clear { clear: both; }
+
+#container { position: relative; }
+
+.mobile-nav-on { overflow: hidden; }
+
+#wrap { height: 100%; width: 100%; position: absolute; top: 0px; left: 0px;=
+ transition: all 0.2s ease-out 0s; z-index: 1; background: rgb(245, 245, 21=
+3); }
+
+.mobile-nav-on #wrap { left: 280px; }
+
+@media screen and (min-width: 768px) {
+  #main { display: inline; float: left; width: 73.3333%; margin: 0px 0.8333=
+33%; }
+}
+
+.article-date, .article-category-link, .archive-year, .follow-title, .widge=
+t-title { text-decoration: none; text-transform: uppercase; letter-spacing:=
+ 2px; color: rgb(153, 153, 153); margin-bottom: 1em; margin-left: 5px; line=
+-height: 1em; text-shadow: rgb(255, 255, 255) 0px 1px; font-weight: bold; }
+
+.article-entry h1, .widget h1 { font-size: 2em; }
+
+.article-entry h2, .widget h2 { font-size: 1.5em; }
+
+.article-entry h3, .widget h3 { font-size: 1.3em; }
+
+.article-entry h4, .widget h4 { font-size: 1.2em; }
+
+.article-entry h5, .widget h5 { font-size: 1em; }
+
+.article-entry h6, .widget h6 { font-size: 1em; color: rgb(153, 153, 153); =
+}
+
+.article-entry hr, .widget hr { border: 1px dashed rgb(221, 221, 221); }
+
+.article-entry strong, .widget strong { font-weight: bold; }
+
+.article-entry em, .widget em, .article-entry cite, .widget cite { font-sty=
+le: italic; }
+
+.article-entry sup, .widget sup, .article-entry sub, .widget sub { font-siz=
+e: 0.75em; line-height: 0; position: relative; vertical-align: baseline; }
+
+.article-entry sup, .widget sup { top: -0.5em; }
+
+.article-entry sub, .widget sub { bottom: -0.2em; }
+
+.article-entry small, .widget small { font-size: 0.85em; }
+
+.article-entry acronym, .widget acronym, .article-entry abbr, .widget abbr =
+{ border-bottom: 1px dotted; }
+
+.article-entry ul, .widget ul, .article-entry ol, .widget ol, .article-entr=
+y dl, .widget dl { margin: 0px 20px; line-height: 1.6em; }
+
+.article-entry ul ul, .widget ul ul, .article-entry ol ul, .widget ol ul, .=
+article-entry ul ol, .widget ul ol, .article-entry ol ol, .widget ol ol { m=
+argin-top: 0px; margin-bottom: 0px; }
+
+.article-entry ul, .widget ul { list-style: disc; }
+
+.article-entry ol, .widget ol { list-style: decimal; }
+
+.article-entry dt, .widget dt { font-weight: bold; }
+
+#categories ul.category-list-child li > a::before { font-family: FontAwesom=
+e; padding-right: 4px; }
+
+.follow .github::before, .follow .weibo::before, .follow .email::before, .f=
+ollow .zhihu::before, .follow .wechat::before { font-family: FontAwesome; p=
+adding: 6px; }
+
+#header { padding-top: 1em; position: relative; border-bottom: 1px solid rg=
+b(221, 221, 221); }
+
+@media screen and (max-width: 479px) {
+  #header { padding-top: 0px; }
+}
+
+#header-outer { height: 100%; position: relative; }
+
+#header-inner { position: relative; overflow: hidden; }
+
+#banner { position: absolute; top: 0px; left: 0px; width: 100%; height: 100=
+%; z-index: -1; }
+
+#header-title { height: 1.6em; position: absolute; top: 50%; width: auto; l=
+eft: 2%; margin-top: -0.8em; }
+
+@media screen and (max-width: 479px) {
+  #header-title { left: 12%; clear: both; }
+}
+
+#logo, #subtitle { text-decoration: none; color: rgb(85, 85, 85); font-weig=
+ht: 100; }
+
+#logo { font-size: 1.6em; line-height: 1.2em; letter-spacing: 1px; }
+
+@media screen and (max-width: 479px) {
+  #logo { font-size: 1.2em; line-height: 1.7em; }
+}
+
+#subtitle { font-size: 14px; line-height: 14px; letter-spacing: 1px; }
+
+#subtitle-wrap { margin-top: 14px; }
+
+#main-nav { float: right; margin-right: 100px; }
+
+@media screen and (max-width: 479px) {
+  #main-nav { float: left; margin: 0px 0px 0px -20px; }
+}
+
+.nav-icon, .main-nav-link { float: left; color: rgb(51, 51, 51); opacity: 0=
+.6; text-decoration: none; text-shadow: rgba(0, 0, 0, 0.2) 0px 1px; transit=
+ion: opacity 0.2s ease 0s; display: block; padding: 20px 15px; }
+
+.nav-icon:hover, .main-nav-link:hover { opacity: 1; }
+
+.nav-icon { font-family: FontAwesome; text-align: center; font-size: 16px; =
+width: 16px; height: 16px; padding: 20px 15px; position: relative; cursor: =
+pointer; }
+
+.main-nav-link { font-weight: 300; letter-spacing: 1px; }
+
+@media screen and (max-width: 479px) {
+  .main-nav-link { display: none; }
+}
+
+#main-nav-toggle { display: none; }
+
+#main-nav-toggle::before { content: "=EF=83=89"; }
+
+@media screen and (max-width: 479px) {
+  #main-nav-toggle { display: block; }
+}
+
+#sub-nav { float: right; margin-right: -15px; }
+
+#nav-rss-link::before { content: "=EF=82=9E"; }
+
+#nav-search-btn::before { content: "=EF=80=82"; }
+
+#search-form-wrap { position: absolute; z-index: 100; top: 15px; width: 290=
+px; height: 30px; right: -290px; opacity: 0; transition: all 0.2s ease-out =
+0s; }
+
+#search-form-wrap.on { opacity: 1; right: 0px; }
+
+@media screen and (max-width: 479px) {
+  #search-form-wrap { width: 100%; right: -100%; }
+}
+
+.search-form { position: absolute; top: 0px; left: 0px; right: 0px; backgro=
+und: rgb(255, 255, 255); padding: 5px 15px; border-radius: 15px; box-shadow=
+: rgba(255, 255, 255, 0.3) 0px 0px 10px; }
+
+.search-form-input { border: none; background: none; color: rgb(51, 51, 51)=
+; width: 200%; font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif; o=
+utline: none; }
+
+.search-form-input::-webkit-search-results-decoration, .search-form-input::=
+-webkit-search-cancel-button { appearance: none; }
+
+.search-form-submit { position: absolute; top: 50%; right: 10px; margin-top=
+: -7px; font: 13px FontAwesome; border: none; background: none; color: rgb(=
+187, 187, 187); cursor: pointer; }
+
+.search-form-submit:hover, .search-form-submit:focus { color: rgb(119, 119,=
+ 119); }
+
+.article { margin: 50px 0px; }
+
+.article-inner { overflow: hidden; }
+
+.article-meta::before, .article-meta::after { content: ""; display: table; =
+}
+
+.article-meta::after { clear: both; }
+
+.article-date { float: left; display: none; }
+
+.article-category { float: left; line-height: 1em; color: rgb(204, 204, 204=
+); text-shadow: rgb(255, 255, 255) 0px 1px; margin-left: 8px; }
+
+.article-category::before { content: "=E2=80=A2"; }
+
+.article-category-link { margin: 0px 12px 1em; }
+
+.article-header { padding: 20px 20px 0px; }
+
+.article-title { text-decoration: none; font-size: 2em; font-weight: 500; p=
+adding: 0px 0px 0.2em; color: rgb(51, 51, 51); line-height: 1.1em; transiti=
+on: color 0.2s ease 0s; }
+
+a.article-title:hover { color: rgb(37, 143, 184); }
+
+@media screen and (max-width: 479px) {
+  .article-title { font-size: 1.5em; }
+}
+
+.article-entry { color: rgb(51, 51, 51); padding: 0px 20px; }
+
+.article-entry::before, .article-entry::after { content: ""; display: table=
+; }
+
+.article-entry::after { clear: both; }
+
+.article-entry p, .article-entry table { line-height: 1.6em; margin: 0.8em =
+0px; }
+
+.article-entry h1, .article-entry h2, .article-entry h3, .article-entry h4,=
+ .article-entry h5, .article-entry h6 { font-weight: 500; }
+
+.article-entry h1, .article-entry h2, .article-entry h3, .article-entry h4,=
+ .article-entry h5, .article-entry h6 { line-height: 1.1em; margin: 1.1em 0=
+px; }
+
+.article-entry a { color: rgb(37, 143, 184); text-decoration: none; }
+
+.article-entry a:hover { text-decoration: underline; }
+
+.article-entry ul, .article-entry ol, .article-entry dl { margin-top: 1.6em=
+; margin-bottom: 1.6em; }
+
+.article-entry img, .article-entry video { max-width: 100%; height: auto; d=
+isplay: block; margin: auto; }
+
+.article-entry iframe { border: none; }
+
+.article-entry table { width: 100%; border-collapse: collapse; border-spaci=
+ng: 0px; }
+
+.article-entry th { font-weight: 500; border-bottom: 3px solid rgb(221, 221=
+, 221); padding-bottom: 0.5em; }
+
+.article-entry td { border-bottom: 1px solid rgb(221, 221, 221); padding: 1=
+0px 0px; }
+
+.article-entry blockquote { font-family: Georgia, "Times New Roman", serif;=
+ font-size: 1.4em; margin: 1.6em 20px; padding: 0.5em 1em; overflow: auto; =
+border-left: 10px solid rgb(214, 219, 223); border-top-left-radius: 0.5em; =
+border-bottom-left-radius: 0.5em; border-top-color: rgb(214, 219, 223); bor=
+der-right-color: rgb(214, 219, 223); border-bottom-color: rgb(214, 219, 223=
+); background: none 0px 0px repeat scroll rgba(102, 128, 153, 0.05); }
+
+.article-entry blockquote footer { font-size: 16px; margin: 1.6em 0px; font=
+-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.article-entry blockquote footer cite::before { content: "=E2=80=94"; paddi=
+ng: 0px 0.5em; }
+
+@media screen and (max-width: 479px) {
+  .article-entry blockquote { font-size: 1em; margin: 1.2em 0px; }
+}
+
+.article-entry .pullquote { text-align: left; width: 45%; margin: 0px; }
+
+.article-entry .pullquote.left { margin-left: 0.5em; margin-right: 1em; }
+
+.article-entry .pullquote.right { margin-right: 0.5em; margin-left: 1em; }
+
+.article-entry .caption { color: rgb(153, 153, 153); display: block; font-s=
+ize: 0.9em; margin-top: 0.5em; position: relative; text-align: center; }
+
+.article-entry .video-container { position: relative; padding-top: 56.25%; =
+height: 0px; overflow: hidden; }
+
+.article-entry .video-container iframe, .article-entry .video-container obj=
+ect, .article-entry .video-container embed { position: absolute; top: 0px; =
+left: 0px; width: 100%; height: 100%; margin-top: 0px; }
+
+.article-more-link a { display: inline-block; line-height: 1em; padding: 6p=
+x 15px; border-radius: 15px; background: rgb(245, 245, 213); color: rgb(0, =
+128, 0); text-shadow: rgb(255, 255, 255) 0px 1px; text-decoration: none; }
+
+.article-more-link a:hover { background: rgb(37, 143, 184); color: rgb(255,=
+ 255, 255); text-decoration: none; text-shadow: rgb(30, 114, 147) 0px 1px; =
+}
+
+.article-footer { font-size: 0.85em; line-height: 1.6em; border-top: 1px so=
+lid rgb(221, 221, 221); padding-top: 1.6em; margin: 0px 20px 20px; }
+
+.article-footer::before, .article-footer::after { content: ""; display: tab=
+le; }
+
+.article-footer::after { clear: both; }
+
+.article-footer a { color: rgb(153, 153, 153); text-decoration: none; }
+
+.article-footer a:hover { color: rgb(51, 51, 51); }
+
+.article-tag-list-item { float: left; margin-right: 10px; }
+
+.article-tag-list-link::before { content: "#"; }
+
+.article-comment-link { float: right; }
+
+.article-comment-link::before { content: "=EF=81=B5"; font-family: FontAwes=
+ome; padding-right: 8px; }
+
+.article-share-link { cursor: pointer; float: right; margin-left: 20px; }
+
+.article-share-link::before { content: "=EF=81=A4"; font-family: FontAwesom=
+e; padding-right: 6px; }
+
+#article-nav { position: relative; }
+
+#article-nav::before, #article-nav::after { content: ""; display: table; }
+
+#article-nav::after { clear: both; }
+
+@media screen and (min-width: 768px) {
+  #article-nav { margin: 50px 0px; }
+  #article-nav::before { width: 8px; height: 8px; position: absolute; top: =
+50%; left: 50%; margin-top: -4px; margin-left: -4px; content: ""; border-ra=
+dius: 50%; background: rgb(221, 221, 221); box-shadow: rgb(255, 255, 255) 0=
+px 1px 2px; }
+}
+
+.article-nav-link-wrap { text-decoration: none; text-shadow: rgb(255, 255, =
+255) 0px 1px; color: rgb(153, 153, 153); box-sizing: border-box; margin-top=
+: 50px; text-align: center; display: block; }
+
+.article-nav-link-wrap:hover { color: rgb(51, 51, 51); }
+
+@media screen and (min-width: 768px) {
+  .article-nav-link-wrap { width: 50%; margin-top: 0px; }
+}
+
+@media screen and (min-width: 768px) {
+  #article-nav-newer { float: left; text-align: right; padding-right: 20px;=
+ }
+}
+
+@media screen and (min-width: 768px) {
+  #article-nav-older { float: right; text-align: left; padding-left: 20px; =
+}
+}
+
+.article-nav-caption { text-transform: uppercase; letter-spacing: 2px; colo=
+r: rgb(153, 153, 153); line-height: 1em; font-weight: 500; }
+
+#article-nav-newer .article-nav-caption { margin-right: -2px; }
+
+.article-nav-title { font-size: 0.85em; line-height: 1.6em; margin-top: 0.5=
+em; }
+
+.article-share-box { position: absolute; display: none; background: rgb(255=
+, 255, 255); box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 10px; border-radius: 3p=
+x; margin-left: -145px; width: 200px; overflow: hidden; z-index: 1; }
+
+.article-share-box.on { display: block; }
+
+.article-share-input { width: 100%; background: none; box-sizing: border-bo=
+x; font: 14px / 36px "Helvetica Neue", Helvetica, Arial, sans-serif; paddin=
+g: 0px 15px; color: rgb(51, 51, 51); outline: none; border: 1px solid rgb(2=
+21, 221, 221); border-radius: 3px 3px 0px 0px; height: 36px; }
+
+.article-share-links { background: rgb(245, 245, 213); }
+
+.article-share-links::before, .article-share-links::after { content: ""; di=
+splay: table; }
+
+.article-share-links::after { clear: both; }
+
+.article-share-weibo, .article-share-wechat, .article-share-qq, .article-sh=
+are-qqzone, .article-share-twitter, .article-share-facebook, .article-share=
+-pinterest, .article-share-google { width: 50px; height: 36px; display: blo=
+ck; float: left; position: relative; color: rgb(153, 153, 153); text-shadow=
+: rgb(255, 255, 255) 0px 1px; }
+
+.article-share-weibo::before, .article-share-wechat::before, .article-share=
+-qq::before, .article-share-qqzone::before, .article-share-twitter::before,=
+ .article-share-facebook::before, .article-share-pinterest::before, .articl=
+e-share-google::before { font-size: 20px; font-family: FontAwesome; width: =
+20px; height: 20px; position: absolute; top: 50%; left: 50%; margin-top: -1=
+0px; margin-left: -10px; text-align: center; }
+
+.article-share-weibo:hover, .article-share-wechat:hover, .article-share-qq:=
+hover, .article-share-qqzone:hover, .article-share-twitter:hover, .article-=
+share-facebook:hover, .article-share-pinterest:hover, .article-share-google=
+:hover { color: rgb(255, 255, 255); }
+
+.article-share-weibo::before { content: "=EF=86=8A"; }
+
+.article-share-weibo:hover { background: rgb(203, 32, 39); text-shadow: rgb=
+(162, 26, 31) 0px 1px; }
+
+.article-share-wechat::before { content: "=EF=87=97"; }
+
+.article-share-wechat:hover { background: rgb(36, 189, 42); text-shadow: rg=
+b(29, 151, 34) 0px 1px; }
+
+.article-share-qq::before { content: "=EF=87=96"; }
+
+.article-share-qq:hover { background: rgb(0, 172, 237); text-shadow: rgb(0,=
+ 138, 190) 0px 1px; }
+
+.article-share-qqzone::before { content: "=EF=87=95"; }
+
+.article-share-qqzone:hover { background: rgb(207, 203, 13); text-shadow: r=
+gb(166, 162, 10) 0px 1px; }
+
+.article-share-twitter::before { content: "=EF=82=99"; }
+
+.article-share-twitter:hover { background: rgb(0, 172, 237); text-shadow: r=
+gb(0, 138, 190) 0px 1px; }
+
+.article-share-facebook::before { content: "=EF=82=9A"; }
+
+.article-share-facebook:hover { background: rgb(59, 89, 152); text-shadow: =
+rgb(47, 71, 122) 0px 1px; }
+
+.article-share-pinterest::before { content: "=EF=83=92"; }
+
+.article-share-pinterest:hover { background: rgb(203, 32, 39); text-shadow:=
+ rgb(162, 26, 31) 0px 1px; }
+
+.article-share-google::before { content: "=EF=83=95"; }
+
+.article-share-google:hover { background: rgb(221, 75, 57); text-shadow: rg=
+b(190, 50, 33) 0px 1px; }
+
+.article-gallery { background: rgb(0, 0, 0); position: relative; }
+
+.article-gallery-photos { position: relative; overflow: hidden; }
+
+.article-gallery-img { display: none; max-width: 100%; }
+
+.article-gallery-img:first-child { display: block; }
+
+.article-gallery-img.loaded { position: absolute; display: block; }
+
+.article-gallery-img img { display: block; max-width: 100%; margin: 0px aut=
+o; }
+
+.toc-article { background: rgb(238, 238, 238); border: 1px solid rgb(187, 1=
+87, 187); border-radius: 10px; margin: 1.5em 0px 0.3em 1.5em; padding: 1.2e=
+m 1em 0px; max-width: 28%; }
+
+.toc-title { font-size: 120%; }
+
+#toc { line-height: 1em; font-size: 0.9em; float: right; }
+
+.toc { padding: 0px; margin: 1em; line-height: 1.8em; }
+
+.toc li { list-style-type: none; }
+
+.toc-child { margin-left: 1em; }
+
+#toc-widget { background: rgb(238, 238, 238); }
+
+#toc-widget-fixed { background: rgb(238, 238, 238); position: fixed; max-he=
+ight: 650px; overflow-y: auto; box-shadow: rgb(204, 201, 201) 2px 3px 4px; =
+}
+
+.toc-widget-list { background: rgb(238, 238, 238); margin: 0.4em 0px 0.3em =
+0.6em; padding: 1.2em 1em 0px; max-width: 90%; }
+
+.toc-widget-list li > a { color: rgb(37, 143, 184); font-size: 120%; }
+
+.toc-number { display: none; }
+
+#comments { background: rgb(255, 255, 255); box-shadow: rgb(221, 221, 221) =
+1px 2px 3px; padding: 20px; border: 1px solid rgb(221, 221, 221); border-ra=
+dius: 3px; margin: 50px 0px; }
+
+#comments a { color: rgb(37, 143, 184); }
+
+#ds-thread div.ds-rounded-top { background: rgb(255, 255, 255) !important; =
+}
+
+.hot-comments div.ds-top-threads { list-style: none; text-decoration: under=
+line; }
+
+.archives-wrap { margin: 0px 0px 50px 120px; }
+
+@media screen and (max-width: 479px) {
+  .archives-wrap { margin: 50px 0px; }
+}
+
+.archives::before, .archives::after { content: ""; display: table; }
+
+.archives::after { clear: both; }
+
+.archive-year-wrap { margin-bottom: 1em; }
+
+.archive-year-post { color: rgb(153, 153, 153); font-size: 0.85em; margin-l=
+eft: 1em; }
+
+.archive-article { overflow: hidden; break-inside: avoid-column; }
+
+.archive-article-inner { padding: 10px; }
+
+.archive-article-title { margin-left: 1em; color: rgb(51, 51, 51); transiti=
+on: color 0.2s ease 0s; }
+
+.archive-article-title:hover { color: rgb(37, 143, 184); }
+
+.archive-article-footer { margin-top: 1em; }
+
+.archive-article-date { float: left; color: rgb(153, 153, 153); text-decora=
+tion: none; font-size: 0.85em; margin-bottom: 0.5em; display: none; }
+
+#page-nav { margin: 50px auto; background: rgb(255, 255, 255); box-shadow: =
+rgb(221, 221, 221) 1px 2px 3px; border: 1px solid rgb(245, 245, 213); borde=
+r-radius: 3px; text-align: center; color: rgb(153, 153, 153); overflow: hid=
+den; }
+
+#page-nav::before, #page-nav::after { content: ""; display: table; }
+
+#page-nav::after { clear: both; }
+
+#page-nav a, #page-nav span { padding: 10px 20px; line-height: 1; height: 2=
+ex; }
+
+#page-nav a { color: rgb(153, 153, 153); text-decoration: none; }
+
+#page-nav a:hover { background: rgb(153, 153, 153); color: rgb(255, 255, 25=
+5); }
+
+#page-nav .prev { float: left; }
+
+#page-nav .next { float: right; }
+
+#page-nav .page-number { display: inline-block; }
+
+@media screen and (max-width: 479px) {
+  #page-nav .page-number { display: none; }
+}
+
+#page-nav .current { color: rgb(51, 51, 51); font-weight: bold; }
+
+#page-nav .space { color: rgb(51, 51, 51); }
+
+#footer { background: rgb(245, 245, 213); padding: 10px 0px; margin-bottom:=
+ 25px; border-top: 1px solid rgb(221, 221, 221); color: rgb(153, 153, 153);=
+ }
+
+#footer a { color: rgb(37, 143, 184); text-decoration: none; }
+
+#footer a:hover { text-decoration: underline; }
+
+#footer-left { float: left; line-height: 1.6em; font-size: 0.85em; }
+
+#footer-right { float: right; font-size: 0.85em; }
+
+@media screen and (max-width: 479px) {
+  #footer-right { float: left; margin-top: 5px; font-size: 0.85em; }
+}
+
+.article-entry pre, .article-entry .highlight { background: rgb(245, 242, 2=
+40); margin: 0px -20px; padding: 15px 20px; border-style: solid; border-col=
+or: rgb(221, 221, 221); border-width: 2px; border-radius: 10px; overflow: a=
+uto; color: rgb(77, 77, 76); line-height: 25.6px; }
+
+.article-entry .highlight .gutter pre, .article-entry .gist .gist-file .gis=
+t-data .line-numbers { color: rgb(102, 102, 102); font-size: 0.85em; }
+
+.article-entry pre, .article-entry code { font-family: "Source Code Pro", C=
+onsolas, Monaco, Menlo, Consolas, monospace; }
+
+.article-entry code { background: rgb(255, 192, 203); color: rgb(51, 51, 51=
+); border-radius: 4px; margin: auto 3px; padding: 0px 0.3em; }
+
+.article-entry pre > code { background: none; text-shadow: none; color: rgb=
+(51, 51, 51); padding: 0px; }
+
+.article-entry .highlight pre { border: none; margin: 0px; padding: 0px; }
+
+.article-entry .highlight table { margin: 0px; width: auto; }
+
+.article-entry .highlight td { border: none; padding: 0px; }
+
+.article-entry .highlight figcaption { font-size: 0.85em; color: rgb(142, 1=
+44, 140); line-height: 1em; margin-bottom: 1em; }
+
+.article-entry .highlight figcaption::before, .article-entry .highlight fig=
+caption::after { content: ""; display: table; }
+
+.article-entry .highlight figcaption::after { clear: both; }
+
+.article-entry .highlight figcaption a { float: right; }
+
+.article-entry .highlight .gutter pre { text-align: right; padding-right: 2=
+0px; }
+
+.article-entry .highlight .line { height: 25.6px; }
+
+.article-entry .highlight .line.marked { background: rgb(214, 214, 214); }
+
+.article-entry .gist { margin: 0px -20px; border-style: solid; border-color=
+: rgb(221, 221, 221); border-width: 1px 0px; background: rgb(245, 242, 240)=
+; padding: 15px 20px 15px 0px; }
+
+.article-entry .gist .gist-file { border: none; font-family: "Source Code P=
+ro", Consolas, Monaco, Menlo, Consolas, monospace; margin: 0px; }
+
+.article-entry .gist .gist-file .gist-data { background: none; border: none=
+; }
+
+.article-entry .gist .gist-file .gist-data .line-numbers { background: none=
+; border: none; padding: 0px 20px 0px 0px; }
+
+.article-entry .gist .gist-file .gist-data .line-data { padding: 0px !impor=
+tant; }
+
+.article-entry .gist .gist-file .highlight { margin: 0px; padding: 0px; bor=
+der: none; }
+
+.article-entry .gist .gist-file .gist-meta { background: rgb(245, 242, 240)=
+; color: rgb(142, 144, 140); font: 0.85em "Helvetica Neue", Helvetica, Aria=
+l, sans-serif; text-shadow: 0px 0px; padding: 0px; margin-top: 1em; margin-=
+left: 20px; }
+
+.article-entry .gist .gist-file .gist-meta a { color: rgb(37, 143, 184); fo=
+nt-weight: normal; }
+
+.article-entry .gist .gist-file .gist-meta a:hover { text-decoration: under=
+line; }
+
+pre .comment, pre .title { color: rgb(142, 144, 140); }
+
+pre .variable, pre .attribute, pre .tag, pre .regexp, pre .ruby .constant, =
+pre .xml .tag .title, pre .xml .pi, pre .xml .doctype, pre .html .doctype, =
+pre .css .id, pre .css .class, pre .css .pseudo { color: rgb(200, 40, 41); =
+}
+
+pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, p=
+re .constant { color: rgb(245, 135, 31); }
+
+pre .class, pre .ruby .class .title, pre .css .rules .attribute { color: rg=
+b(113, 140, 0); }
+
+pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, =
+pre .xml .cdata { color: rgb(113, 140, 0); }
+
+pre .css .hexcolor { color: rgb(62, 153, 159); }
+
+pre .function, pre .python .decorator, pre .python .title, pre .ruby .funct=
+ion .title, pre .ruby .title .keyword, pre .perl .sub, pre .javascript .tit=
+le, pre .coffeescript .title { color: rgb(66, 113, 174); }
+
+pre .keyword, pre .javascript .function { color: rgb(137, 89, 168); }
+
+@media screen and (max-width: 479px) {
+  #mobile-nav { position: absolute; top: 0px; left: 0px; width: 280px; heig=
+ht: 100%; background: rgb(80, 79, 79); border-right: 1px solid rgb(255, 255=
+, 255); }
+}
+
+@media screen and (max-width: 479px) {
+  .mobile-nav-link { display: block; color: rgb(153, 153, 153); text-decora=
+tion: none; padding: 15px 20px; font-weight: bold; }
+  .mobile-nav-link:hover { color: rgb(255, 255, 255); }
+}
+
+span.ua { opacity: 0.9; margin: 0px 1px !important; color: rgb(255, 255, 25=
+5) !important; }
+
+span.ua .location { color: rgb(153, 153, 153); padding-right: 4px !importan=
+t; padding-left: 4px !important; border-bottom-left-radius: 4px !important;=
+ border-top-left-radius: 4px !important; }
+
+span.ua .location::before { font-family: FontAwesome; content: "=EF=81=81";=
+ padding-right: 4px; }
+
+.ua_other.os_other { color: rgb(255, 255, 255); border-radius: 4px; backgro=
+und-color: rgb(204, 204, 204) !important; border: 1px solid rgb(187, 187, 1=
+87) !important; }
+
+.ua_ie { border-radius: 4px; background-color: rgb(66, 139, 202) !important=
+; border-color: rgb(53, 126, 189) !important; padding: 0px 5px !important; =
+}
+
+.ua_firefox { border-radius: 4px; background-color: rgb(240, 173, 78) !impo=
+rtant; border-color: rgb(238, 162, 54) !important; padding: 0px 5px !import=
+ant; }
+
+.ua_maxthon { border-radius: 4px; background-color: rgb(115, 115, 185) !imp=
+ortant; border-color: rgb(115, 115, 185) !important; padding: 0px 5px !impo=
+rtant; }
+
+.ua_ucweb { border-radius: 4px; background-color: rgb(255, 116, 15) !import=
+ant; border-color: rgb(212, 63, 58) !important; padding: 0px 5px !important=
+; }
+
+.ua_sogou { border-radius: 4px; background-color: rgb(120, 172, 233) !impor=
+tant; border-color: rgb(76, 174, 76) !important; padding: 0px 5px !importan=
+t; }
+
+.ua_2345explorer { border-radius: 4px; background-color: rgb(36, 120, 184) =
+!important; border-color: rgb(76, 174, 76) !important; padding: 0px 5px !im=
+portant; }
+
+.ua_2345chrome { border-radius: 4px; background-color: rgb(249, 208, 36) !i=
+mportant; border-color: rgb(76, 174, 76) !important; padding: 0px 5px !impo=
+rtant; }
+
+.ua_mi { border-radius: 4px; background-color: rgb(255, 74, 0) !important; =
+border-color: rgb(76, 174, 76) !important; padding: 0px 5px !important; }
+
+.ua_lbbrowser { border-radius: 4px; background-color: rgb(252, 157, 46) !im=
+portant; border-color: rgb(76, 174, 76) !important; padding: 0px 5px !impor=
+tant; }
+
+.ua_chrome { border-radius: 4px; background-color: rgb(238, 98, 82) !import=
+ant; border-color: rgb(76, 174, 76) !important; padding: 0px 5px !important=
+; }
+
+.ua_qq { border-radius: 4px; background-color: rgb(61, 136, 168) !important=
+; border-color: rgb(76, 174, 76) !important; padding: 0px 5px !important; }
+
+.ua_apple { border-radius: 4px; background-color: rgb(233, 86, 32) !importa=
+nt; border-color: rgb(76, 174, 76) !important; padding: 0px 5px !important;=
+ }
+
+.ua_opera { border-radius: 4px; background-color: rgb(217, 83, 79) !importa=
+nt; border-color: rgb(212, 63, 58) !important; padding: 0px 5px !important;=
+ }
+
+.os_vista, .os_2000, .os_windows, .os_xp, .os_7, .os_8, .os_8_1 { border-ra=
+dius: 4px; background-color: rgb(57, 179, 215) !important; border-color: rg=
+b(70, 184, 218) !important; padding: 0px 5px !important; }
+
+.os_android { border-radius: 4px; background-color: rgb(152, 193, 61) !impo=
+rtant; border-color: rgb(1, 177, 113) !important; padding: 0px 5px !importa=
+nt; }
+
+.os_ubuntu { border-radius: 4px; background-color: rgb(221, 72, 20) !import=
+ant; border-color: rgb(1, 177, 113) !important; padding: 0px 5px !important=
+; }
+
+.os_linux { border-radius: 4px; background-color: rgb(58, 58, 58) !importan=
+t; border-color: rgb(31, 31, 31) !important; padding: 0px 5px !important; }
+
+.os_mac { border-radius: 4px; background-color: rgb(102, 102, 102) !importa=
+nt; border-color: rgb(31, 31, 31) !important; padding: 0px 5px !important; =
+}
+
+.os_unix { border-radius: 4px; background-color: rgb(0, 102, 0) !important;=
+ border-color: rgb(31, 31, 31) !important; padding: 0px 5px !important; }
+
+.os_nokia { border-radius: 4px; background-color: rgb(1, 68, 133) !importan=
+t; border-color: rgb(31, 31, 31) !important; padding: 0px 5px !important; }
+
+.sskadmin { border-radius: 4px; background-color: rgb(0, 166, 124) !importa=
+nt; border-color: rgb(1, 177, 113) !important; padding: 0px 5px !important;=
+ }
+
+.back-to-top-btn { position: fixed; display: none; right: 30px; bottom: 100=
+px; cursor: pointer; z-index: 300 !important; }
+
+.back-to-top-btn:hover { border: 0.5px dashed rgb(85, 85, 85); }
+
+@media screen and (max-width: 479px) {
+  .back-to-top-btn { width: auto; height: 60px; z-index: 400; }
+  .back-to-top-btn:hover { border: none; }
+}
+
+.follow-title { text-transform: none !important; }
+
+.follow { text-align: center !important; font-size: 2em !important; line-he=
+ight: 1em !important; }
+
+.follow a { color: rgb(80, 80, 79) !important; text-decoration: none !impor=
+tant; }
+
+.follow .github::before { content: "=EF=82=92" !important; }
+
+.follow .github:hover { color: rgb(51, 51, 51); cursor: pointer; background=
+-color: rgb(245, 245, 213); }
+
+.follow .weibo::before { content: "=EF=86=8A" !important; }
+
+.follow .weibo:hover { color: rgb(51, 51, 51); cursor: pointer; background-=
+color: rgb(245, 245, 213); }
+
+.follow .email::before { content: "=EF=83=A0" !important; }
+
+.follow .email:hover { color: rgb(51, 51, 51); cursor: pointer; background-=
+color: rgb(245, 245, 213); }
+
+.follow .zhihu::before { content: "=EF=82=AC" !important; }
+
+.follow .zhihu:hover { color: rgb(51, 51, 51); cursor: pointer; background-=
+color: rgb(245, 245, 213); }
+
+.follow .wechat::before { content: "=EF=87=97" !important; }
+
+.follow .wechat:hover { color: rgb(51, 51, 51); cursor: pointer; background=
+-color: rgb(245, 245, 213); }
+
+.wechat-widget { text-align: center; margin: 1px auto; overflow: hidden; }
+
+.wechat-widget > img { border-radius: 2em; transition: -webkit-transform 6s=
+ ease-out 0s; }
+
+.wechat-widget > img:hover { transform: rotateZ(360deg); }
+
+#random_posts { margin-top: 2em; font-family: Georgia, serif; }
+
+#random_posts ul { margin-left: 1.5em; }
+
+#random_posts p, #random_posts li { line-height: 170%; list-style-type: squ=
+are; }
+
+#random_posts h2 { font-size: 1.58em; line-height: 1.35em; }
+
+@media screen and (max-width: 479px) {
+  #random_posts h2 { font-size: 1.2em; }
+}
+
+#random_posts h1, #random_posts h2, #random_posts h3 { margin: 0.4em 0px 0.=
+2em; padding: 0px 0px 0.2em; color: rgb(0, 0, 0); font-weight: 500; letter-=
+spacing: -0.03em; border-bottom: 1px solid rgb(211, 211, 211); }
+
+#random_posts li div.post-excerpt { margin-left: 1em; padding-left: 0.4em; =
+border-left: 0.4em solid rgb(128, 128, 128); }
+
+#random_posts li div.post-excerpt h1, #random_posts li div.post-excerpt h2,=
+ #random_posts li div.post-excerpt h3 { border-bottom: none; }
+
+#random_posts li div.post-excerpt h1, #random_posts li div.post-excerpt h2,=
+ #random_posts li div.post-excerpt h3, #random_posts li div.post-excerpt h4=
+ { font-size: 1em; font-weight: normal; }
+
+@media screen and (min-width: 768px) {
+  #sidebar { display: inline; float: left; width: 23.3333%; margin: 0px 0.8=
+33333%; }
+}
+
+.widget-wrap { margin: 50px 0px; }
+
+.widget { color: rgb(119, 119, 119); background: rgb(222, 235, 247); box-sh=
+adow: rgb(238, 238, 238) 0px -1px 4px inset; border: 1px solid rgb(238, 238=
+, 238); padding: 15px; border-radius: 10px; }
+
+.widget a { color: rgb(51, 51, 51); text-decoration: none; }
+
+.widget a:hover { text-decoration: underline; }
+
+.widget ul ul, .widget ol ul, .widget dl ul, .widget ul ol, .widget ol ol, =
+.widget dl ol, .widget ul dl, .widget ol dl, .widget dl dl { margin-left: 1=
+5px; }
+
+#categories ul.category-list-child li > a::before { content: "=EF=83=9A"; c=
+olor: rgb(153, 153, 153); }
+
+.widget { line-height: 1.6em; overflow-wrap: break-word; font-size: 0.9em; =
+}
+
+.widget ul, .widget ol { list-style: none; margin: 0px; }
+
+.widget ul ul, .widget ol ul, .widget ul ol, .widget ol ol { margin: 0px 20=
+px; }
+
+.widget ul ol, .widget ol ol { list-style: decimal; }
+
+.category-list-count, .tag-list-count, .archive-list-count { padding-left: =
+5px; color: rgb(153, 153, 153); font-size: 0.85em; }
+
+.category-list-count::before, .tag-list-count::before, .archive-list-count:=
+:before { content: "("; }
+
+.category-list-count::after, .tag-list-count::after, .archive-list-count::a=
+fter { content: ")"; }
+
+.tagcloud a { margin-right: 5px; display: inline-block; }
+------MultipartBoundary--jHVLwRvJjted208zWUknkT3nHbY4y6AJCz2o4edj2i----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://static.iocoder.cn/6abb56b3651c0eee105c510bb9fc6473
+
+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
+jram4PBgz/LSU9X/u7evnflZPuc5syM/lABc6D6/vv5BVj55dL+ixK6/RXks/b3t6u/3Sp5X0/Wi
+qa7srw/vI192vZBvOUkABkAABgAACQKwxA+Dymotew/A0onxLf4+85EYqbNImiopsrtsp7W7FLiy
+8rKPP7i/9e1WEswkcKrkpn4sL3VJG2nptmepT+HKsrmxvrT4ZP2vcLNbN66qjxb3djVp3WrfURw/
+yIQ37Tbyn7dujFhzTuTnnkhi5OrP5Kr1leWe+CGtR+JoW3Nl0uOP70FM3B5TG5VY+/bNq9rKop3a
+Rx7LsbtzU6r9ly+fX6wta4/l7ZvX/gKbO//MrsPY9aadEIABAjAAAMiIACxCvba9pF+5eyqk351i
+5I8fPz68f7v49PGlvg5JjJYLf2qxUHFaT+Vk/aevp/X9uzfq3bayfPv2deL2dZ8rW4KZaubIO1Xg
+yb1/b0ZrI+1Hhvpzs/548nh+3wOwbEX6f/Tw3vVrV4IBn4ww6ZEfVgC2W8+M37r2+dMn7c8X67R3
+Wk/LY+lqb1B/VHnrFw2bG5MTN2y5J6MfCwEYAAEYAAD8IwAXuM6bEuy1Ncy6kyB3NLut38eaczz7
+3H905J7/02M/p3NHe94ZSZsFbou0lB9zsv70OLba+5xZamVezolSv8vrzFY/Rv7GUvjuEuG0DrPP
+/SFr3Paz8dtKeNOuI8/PPSkDSG7kavCqmdeR4OFLY7nJlX8m6fHH9yBkzFuDt5x22s5Fjydhe2vO
+CdXemnOyvNTjtl/4ddTihm12hPoIwAABGAAApHEA9rmyzCqtya2bdBmPvtJY7pLEhn6fvJxjF879
+T5z/5Jz/w5J9zJ53Uue+duspaabdSxKULfeE5K7oNh7H2ehNSHvVp3QuP4a/HGu7pdxd1rjsZ+I3
+lPCmRCMPD1vW51tOJOzH1Mi9znPqVnkI8T3kZIXv7sw/nfT443tQG5WRZGf9R21aEql+e+H452OR
+Ztbc49KPwWHsetNOCMAAARgAAKRzAHZmJaHQmxW6mG8k/UozaZzcVlKZ13HOnX/GI1FtlzZn5d+0
+G/khjs3U7lJ72GM/uD1MAAYIwAAAII0DsNd5LmkF3qyyltzKwfy6SVf97C/yo6yUm6TBXvoHUg0B
+GCAAAwCAdA7AkTk3AEYQgAECMAAASOMA7HGcBWAQARggAAMAgDQOwG77WQAGEYABAjAAAEjrAHwG
+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
+c8bHs3UxNDORcC89W3wit968PhR/0+DFtq9fv8T0LGuGBjqjmxl/RGrPNNeXvnyxEtNYLrakn5gB
+6I+82Jdjzzu58CT8/UBrK0umRn65ryXhfuvratA62dzciFljdvzRPRg5UvFbFFcudyQ8B+RiTjst
+kx6hvlQIwEbG2TTj3d8ALB2mY8Uze/STOFsMno1GznYjdcNIP8YrVfhFbWwwurar5cbYwNDAVgA2
+Xn+onFTO1KycBGAAGRqAteAaE4DV9O+x0lr99BsfgLV+DF0OlloqRnPUmnhykzRI+nJQfQFJc0Ow
+tDDX6zy3tvpcfQpLJwCr17OpOzcaakr9vjy57/LzRfXC1t/9j9dL9Q7D5aWnbc1Vrvxz0ri3q0ld
+DcxM3VRtAn5bRZmrqsK39YUcDRXyo4ju5+vXr+qrUz593By9erGxNlBXXVKx/Yqrxryx/ldfd3Og
+2FHmdwxe7nrzOvyFIu/evorup7O1Sm1FBtzSGCry5bW3VM/OTKgLOLkyNjgenYuhwUvtP3/+/Phx
+0++LvamrvVr1ee/uVHWw0OPIkn/nH8zKGrlLe3NQa2n8Eak9E557efe6q72utMhWVuy8eqVPXXxo
+qd7gZZwo8ly41NcR+WzkhrmR+60J91vAb/11sm2EfxvS01GX9PijezBypOK3qF38LT593NwYLPLm
+VYcK5ZpbfevpvbnY30yZHeHRCMBGMq2pACzSseKZPfpm2xs/G42c7UbqhpF+jFeqgYttqqVkVxl/
+sS+vsbbs7uxE5GVi1VQApnJSOQnAAHBwl4NyGbSrm9OzGrVGxdp/ZVnE6ca+XQPwTv3sRF3qqf9X
+jOx4Lbh1RTiSY+RRxOvprJOXIrnm8NjPyo/FvuwrkV/br648S9j+VSQAy3Llcpc155jGnnfyyeN5
+9WqnNa6vLlIv825HVqTZcdW4vaVGrpYezc+pZoWe87LSYT2tei4ptKlmfm+21pXKzJub64WeHG2j
+csER3lFljqXFxwtP5kPlvughNdaVb33DR02x6kReRNVn/x4/up9vORHdWL0T8vv378FSu5HxPJq/
+q77g9NrVi8qNawMS6dWvBiT2l5e6PI6z0btOtq5unbh9LXrT4u7sZPhK8fni1qE3/Ih+7ZmNda/z
+fHRjdRx//Pgu240ehhq5XMbpnBWSDbY+jVZqNz7yAnfi/VboPq/1LBemkc9e1iQ9/ugejByp+C3K
+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
+
+------MultipartBoundary--jHVLwRvJjted208zWUknkT3nHbY4y6AJCz2o4edj2i----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://svip.iocoder.cn/images/fly-to-top.png
+
+iVBORw0KGgoAAAANSUhEUgAAADwAAACCCAYAAAAaPKt3AAAACXBIWXMAAAsTAAALEwEAmpwYAAAK
+TWlDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVN3WJP3Fj7f92UPVkLY8LGXbIEAIiOsCMgQ
+WaIQkgBhhBASQMWFiApWFBURnEhVxILVCkidiOKgKLhnQYqIWotVXDjuH9yntX167+3t+9f7vOec
+5/zOec8PgBESJpHmomoAOVKFPDrYH49PSMTJvYACFUjgBCAQ5svCZwXFAADwA3l4fnSwP/wBr28A
+AgBw1S4kEsfh/4O6UCZXACCRAOAiEucLAZBSAMguVMgUAMgYALBTs2QKAJQAAGx5fEIiAKoNAOz0
+ST4FANipk9wXANiiHKkIAI0BAJkoRyQCQLsAYFWBUiwCwMIAoKxAIi4EwK4BgFm2MkcCgL0FAHaO
+WJAPQGAAgJlCLMwAIDgCAEMeE80DIEwDoDDSv+CpX3CFuEgBAMDLlc2XS9IzFLiV0Bp38vDg4iHi
+wmyxQmEXKRBmCeQinJebIxNI5wNMzgwAABr50cH+OD+Q5+bk4eZm52zv9MWi/mvwbyI+IfHf/ryM
+AgQAEE7P79pf5eXWA3DHAbB1v2upWwDaVgBo3/ldM9sJoFoK0Hr5i3k4/EAenqFQyDwdHAoLC+0l
+YqG9MOOLPv8z4W/gi372/EAe/tt68ABxmkCZrcCjg/1xYW52rlKO58sEQjFu9+cj/seFf/2OKdHi
+NLFcLBWK8ViJuFAiTcd5uVKRRCHJleIS6X8y8R+W/QmTdw0ArIZPwE62B7XLbMB+7gECiw5Y0nYA
+QH7zLYwaC5EAEGc0Mnn3AACTv/mPQCsBAM2XpOMAALzoGFyolBdMxggAAESggSqwQQcMwRSswA6c
+wR28wBcCYQZEQAwkwDwQQgbkgBwKoRiWQRlUwDrYBLWwAxqgEZrhELTBMTgN5+ASXIHrcBcGYBie
+whi8hgkEQcgIE2EhOogRYo7YIs4IF5mOBCJhSDSSgKQg6YgUUSLFyHKkAqlCapFdSCPyLXIUOY1c
+QPqQ28ggMor8irxHMZSBslED1AJ1QLmoHxqKxqBz0XQ0D12AlqJr0Rq0Hj2AtqKn0UvodXQAfYqO
+Y4DRMQ5mjNlhXIyHRWCJWBomxxZj5Vg1Vo81Yx1YN3YVG8CeYe8IJAKLgBPsCF6EEMJsgpCQR1hM
+WEOoJewjtBK6CFcJg4Qxwicik6hPtCV6EvnEeGI6sZBYRqwm7iEeIZ4lXicOE1+TSCQOyZLkTgoh
+JZAySQtJa0jbSC2kU6Q+0hBpnEwm65Btyd7kCLKArCCXkbeQD5BPkvvJw+S3FDrFiOJMCaIkUqSU
+Eko1ZT/lBKWfMkKZoKpRzame1AiqiDqfWkltoHZQL1OHqRM0dZolzZsWQ8ukLaPV0JppZ2n3aC/p
+dLoJ3YMeRZfQl9Jr6Afp5+mD9HcMDYYNg8dIYigZaxl7GacYtxkvmUymBdOXmchUMNcyG5lnmA+Y
+b1VYKvYqfBWRyhKVOpVWlX6V56pUVXNVP9V5qgtUq1UPq15WfaZGVbNQ46kJ1Bar1akdVbupNq7O
+UndSj1DPUV+jvl/9gvpjDbKGhUaghkijVGO3xhmNIRbGMmXxWELWclYD6yxrmE1iW7L57Ex2Bfsb
+di97TFNDc6pmrGaRZp3mcc0BDsax4PA52ZxKziHODc57LQMtPy2x1mqtZq1+rTfaetq+2mLtcu0W
+7eva73VwnUCdLJ31Om0693UJuja6UbqFutt1z+o+02PreekJ9cr1Dund0Uf1bfSj9Rfq79bv0R83
+MDQINpAZbDE4Y/DMkGPoa5hpuNHwhOGoEctoupHEaKPRSaMnuCbuh2fjNXgXPmasbxxirDTeZdxr
+PGFiaTLbpMSkxeS+Kc2Ua5pmutG003TMzMgs3KzYrMnsjjnVnGueYb7ZvNv8jYWlRZzFSos2i8eW
+2pZ8ywWWTZb3rJhWPlZ5VvVW16xJ1lzrLOtt1ldsUBtXmwybOpvLtqitm63Edptt3xTiFI8p0in1
+U27aMez87ArsmuwG7Tn2YfYl9m32zx3MHBId1jt0O3xydHXMdmxwvOuk4TTDqcSpw+lXZxtnoXOd
+8zUXpkuQyxKXdpcXU22niqdun3rLleUa7rrStdP1o5u7m9yt2W3U3cw9xX2r+00umxvJXcM970H0
+8PdY4nHM452nm6fC85DnL152Xlle+70eT7OcJp7WMG3I28Rb4L3Le2A6Pj1l+s7pAz7GPgKfep+H
+vqa+It89viN+1n6Zfgf8nvs7+sv9j/i/4XnyFvFOBWABwQHlAb2BGoGzA2sDHwSZBKUHNQWNBbsG
+Lww+FUIMCQ1ZH3KTb8AX8hv5YzPcZyya0RXKCJ0VWhv6MMwmTB7WEY6GzwjfEH5vpvlM6cy2CIjg
+R2yIuB9pGZkX+X0UKSoyqi7qUbRTdHF09yzWrORZ+2e9jvGPqYy5O9tqtnJ2Z6xqbFJsY+ybuIC4
+qriBeIf4RfGXEnQTJAntieTE2MQ9ieNzAudsmjOc5JpUlnRjruXcorkX5unOy553PFk1WZB8OIWY
+EpeyP+WDIEJQLxhP5aduTR0T8oSbhU9FvqKNolGxt7hKPJLmnVaV9jjdO31D+miGT0Z1xjMJT1Ir
+eZEZkrkj801WRNberM/ZcdktOZSclJyjUg1plrQr1zC3KLdPZisrkw3keeZtyhuTh8r35CP5c/Pb
+FWyFTNGjtFKuUA4WTC+oK3hbGFt4uEi9SFrUM99m/ur5IwuCFny9kLBQuLCz2Lh4WfHgIr9FuxYj
+i1MXdy4xXVK6ZHhp8NJ9y2jLspb9UOJYUlXyannc8o5Sg9KlpUMrglc0lamUycturvRauWMVYZVk
+Ve9ql9VbVn8qF5VfrHCsqK74sEa45uJXTl/VfPV5bdra3kq3yu3rSOuk626s91m/r0q9akHV0Ibw
+Da0b8Y3lG19tSt50oXpq9Y7NtM3KzQM1YTXtW8y2rNvyoTaj9nqdf13LVv2tq7e+2Sba1r/dd3vz
+DoMdFTve75TsvLUreFdrvUV99W7S7oLdjxpiG7q/5n7duEd3T8Wej3ulewf2Re/ranRvbNyvv7+y
+CW1SNo0eSDpw5ZuAb9qb7Zp3tXBaKg7CQeXBJ9+mfHvjUOihzsPcw83fmX+39QjrSHkr0jq/dawt
+o22gPaG97+iMo50dXh1Hvrf/fu8x42N1xzWPV56gnSg98fnkgpPjp2Snnp1OPz3Umdx590z8mWtd
+UV29Z0PPnj8XdO5Mt1/3yfPe549d8Lxw9CL3Ytslt0utPa49R35w/eFIr1tv62X3y+1XPK509E3r
+O9Hv03/6asDVc9f41y5dn3m978bsG7duJt0cuCW69fh29u0XdwruTNxdeo94r/y+2v3qB/oP6n+0
+/rFlwG3g+GDAYM/DWQ/vDgmHnv6U/9OH4dJHzEfVI0YjjY+dHx8bDRq98mTOk+GnsqcTz8p+Vv95
+63Or59/94vtLz1j82PAL+YvPv655qfNy76uprzrHI8cfvM55PfGm/K3O233vuO+638e9H5ko/ED+
+UPPR+mPHp9BP9z7nfP78L/eE8/sl0p8zAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAA
+ADqYAAAXb5JfxUYAAAw4SURBVHja7J1pcFVnGcd/N/eykxKgbCWUNZS9FNmkpWWRUugGtlgXVOqM
+nrEfbJ1xxnEcR/vBbXRkdPrB186oOB0rLVak0xZKoWwVxAJRIC0aIIUAIdAQwhKWJNcP7/9MLjG5
+ufcsd0l8ZjK5N/fcc97/eZ73Wf7v855E4vE4bYnjOKQgk4FvAT8HDhKgGGMIWgp8fj8G/ABYBjwD
+9CbHxS/g1cD9wK+B08CPge4dFfCTwH3AF4CbwEtAFfANaT4nxc/A3gQ2AgOBpUAc+AnQC2jsiBq+
+ClwGuglsVEDr9L5DzmEEGOAGeSBBAO4v73w5HwAH4Vz2AeVAbWcAHAEu5QvYIEw6DowH7g1oeuSF
+SVcDF3PZM4cBOG/EL+AoMFbzuLKVz7/fxvfWABX5CLhAufPFNj6fp98jgCKgVO//mq8avgkcSPL5
+/ARNz0t4n7cm3R/oAxz34LSKVG2t0vttwPKEEBd3HGe9blSR+7kxptavSXqVrsAMoNijh14NTAVG
+An0F6nctjhmhz0fq2GezGYdvALuBv3v8/irgeTmvWr1e1uKY540xtcaYCuD3CT4hKybdS/mzn1Kw
+to3Xyf6WFQ0Xq/Af4uPapS1M9FnN00R5AMBxnCJpf1u2NBxT0VDp49pPA+/K4dVqvrb04s85jrNM
+n1UAv8wW4Io0E4c1rcTeUjmreQleuqUsd18YY7YFYdIxD1PgbqABOAw0pXGD2pKkQIIC6nUO9wN6
+YMm6JvJQ0tXwef1kQiLZJuIHyDtHyWNJFXAUu6RSSJ5LqoALNXfLyWHOOcg5XAtsknfuFBoeTJ5Q
+OEEBXqDqqNMA3gJcCzrsAD0TbmQslwCfDdCkCwW2F/AwMEx/X+wWC0AXHZM1wNOACQFcb6yqrNtk
+MaU0s55lwLmE6y10HCeaLcBVwO0+NOqWkXFgJ5blbAD+o9eoairT6xNAiW5MsPMogB6P9rKzhUA9
+6TOVMeXrcSBqjGnIpIZdmQQsIXkvR0zOCGCU5v9uD2NrMMY0Ybmuu7NVLVUCV4AvqnKK6PcA7Dpx
+RPXtNB1/BNiFv9WJ3pr7WamWaoEdAnJR6eZiYBCwTjekCNifcLxfOQWszZaGE8NUozztJoF1y8b1
+wLGgBiiz7uM4zsBsAnalCaiRZt3EJIx8exyw1HGcrpk26WzJQZl2U6cAbIy5TEA9JHkB2HGcMdhG
+uLXGmOPZnMOZkpuKDLWdxaQ/Aj7qFCbtOM4QbE/nFmNMTbbDUthgo8BMJTiBOK2CHDflRmwT60vG
+mBsd3aSHO45Tb4wJtEsoFzXcE1gEPIZtpwhUclHDTdju+jJjzKmOCDiC5bC6qSC5il2ZDEUK0jQ1
+sKTbk3pfCHwNuwyDwscMbHdPqteeCHwT+CyWCgp17SqWJCREsJzSndgV+AbgLWAoMFoDjmK3ALgb
+OyZjSfs9OnY0cEEVVaLco8/W6Rp7xYpcC9uc2jPp7tJWE5ZwQ2D2JJjjapq74V/T8df1fi4wHPgH
+ltseDdyFbUFyz7ebDK5qhE3i9cHyWgNl7lHRQeuBzbSzbSCM9eFYC4BFwArgDPCGxzsfE8A5WKr1
+kEy2HMuHxWXmWdkjUZAAtgB4XF7yXWNM3OP5JgJfwvJcG2TK1cBRLL99VmCjOmZCGPG2XQ2LO1oT
+QAz9p37ak27AdODTugm/IQMtxTFpdxB2ZaHMo2bHYOnafaS+YH5V0+Zv2DWm2zKp4TlAkTHmsEcz
+XiDOycvNuoDdxpdRk97sIzQ0AX+SxvyQbIOl6T2hZlpyVlEfg+0tCsYvPVurHHpA2F66EPgOdgXB
+i6yQ4/Er15SdbQvbpK/rQl45o30EQ75HlInFgA9DA2yMuQZs93GOfwU0lkI5v+OhAlZYmqWcd4Nu
+QLrylPLutT4KgDrgFTm/0DOt0xpoT4/neVsa+qpMM52ys49udn85rhthz2GMMSeBkz7OcwF4Efs8
+ALA9mTMU7upUUl7VcUXYPumuWHJ9ulLaTakUFIGllqp/RwHnjTEXPZzrugaMBt1P4C4pAhzHdsDP
+UXl4ToBPYx+aUJbR4kEpZRdgsGKzH6mSxiuV0GwFPkhwchuwzw9Af88I2P+heIwxH0oTQdEsbjJT
+oZuAbsIhn1MoHAKgI0oBnUz+D7ijS1LW0nGcXmImavIRXGskYHsavh94AVjpIwvLHw0rfAwHfoYl
+515TYn+powKuxBLtjwOPAB8rgzqDZSGvdDTAcZq3vO/Adsa+r1x5uF6f6Whe+pxuzFYs3/SocuCb
+2C2ujwp8rKMArsM2kg4Hfovtff6KqJg/qgqaroIg1hEAI9Mdr5r5V6phf4rloN3u2hLgywLfNd8B
+n5PDmo5dNvmewtSPBP4Q8DL2eQATsHTryFwEnk6mtV+hqYsK+W+rqvquCnywfPKbSlTuVe07IF8B
+n5EJj9b7GuAX0vTXRdHEsX3T27FLKLcppH0Ku3AWySfAl7FU7qSEevmoQA8EnuPWVodjNK8e9sTu
+SRqVT4Djcl6DBNCVI0pOBmCf1FDc4nsVcmxnsDTsZ7CLb9FcB4zCU5UGnCgfyHv3xW4AGZlgvnEs
+G7kT+AN20W2mzHxopiu2dC8Wwa40TG1FQ2XYVcCB2OWXYa18/7o8+Q558EVybrFcBRxXiKqm9b1E
++4A/Y9ean8B2ALWUBuXoG7ENLUOBz2Np3d5hOzYv5nQFS60Ox3a5tgSzG8sx95OHHtPGedym71ew
+PSAjpO07cpHx2KN52ppGGrH88y6FpYVKRtrSXJOAv6dp8pjy8+JcAhxXkjGT1hfSm6Tlg3Jkc5Jo
+2j3faSUtr2quzwU+ScANL14BNygGF7czoC0iDAqBB0ltS915efQD2FbERwhmK68vwCgJuaJ0M5Jk
+vu+Uk6rXHJ2awrnrdaNe1+9Z2H3H41vxGxkDfFPxdwTJH6L9seZ0vSxjYhthra1r7MMuw54Apmga
+9c0GYLdY6Ev73bPnZd5d5dQmafCpXv+q4vc+Xe8JOcO+mQZ8TQnH7BSOrcb2ZXWX5qaT3r7gG9j2
+xfVyiL2xe5knksZj2oNI68qk4VS2zJ9VuIqouPiEPHi6UinGpVw37sE2kpxQAFdrnt6VYjgrV7i6
+U8RBscJPOsVEXHn9XuAvWNp4vjx6UuIhCMBx4N+Ks13SmPsHZNKnlLXd4zGnrpNTfEuOcba0HgkL
+MNJYD3nsVKVUjmgcdq14sgbqx9Le01hKgKcdx5nuOM4tYSyoBvGI5uIwbBtiqhLFPi+gRL5gltLM
+bQEoYYIiwSXF8gpjTGNQGo4r8+qTJofVKNOuVhb2hubgogBKRvfG1ctHLHIcp0+Qxfd5DXyahzT1
+HQ1skV4XaZBdfIyn0RhTZYzZKn5tHlASJOAGzZ8hGnC68rpu2H1YhrREoH2J4zijZdqlwLGg6ZVy
+hYRBHr+/UVnVFCUX4xVj05UIEHMcZ67IwwbgVWNMTdDUSoFq5TmaQ2mboULMQ/Le61QfL5Gp30zh
+HF3kR+arTD1gjDkQdFhKrIPdZ16O9HiOOsXUEQpT65TJPUDzfw1pS3rJhyx3s7FEsGEAduPhRZpb
+gb3IJezSzTARAW8rM0s2p4fI6U2Tt99rjDkTVuLRGgXkt3a9KkLwDoWsDUpfH25xXDdlbEt1g19U
+rV4fZqbVWoiqSTG/TiYXBHScNOzSwA9priZq9aDMv4Ek+zfCAuyGqKkBJBDVclizNU1e1lx9iuZt
+C5tVSGSkWmpLjur3mADOVaF5uQC7+2W7vHCZ5nfKz7kOE/AV0TJjA7rONZEAn1Oc3SatptVfHfa6
+zn552l4+ztFNPNZiLM99Qr7BS5wPHbD7eGYvj3iLiLNagV2OOaXy74b8QnkuAkbE2wTSa3/oobm/
+SonMO9g1rX6ylpN4fC5PJlbt3O2zo2nuik8mxQozUxSGKuX1RwnsRf2tKVc17P6nnvEp3GD3oQmT
+NVdPCOwQFSTdRP5d95PsZ0L2aB7eniQHXqms6hTwQxUSE/X5SH23xuvczaRJuyHqpOZyVYvKZoTS
+xcNYFtPNf99XHn1M1lGgZMZXf2cm2w0OCbDLYgxWIrFEte8ubu3bPCpHtVJe/ggBbAzJlIbjAlOl
+wdfLMV1Xqni+lfy3QXzXMzp+OwFs4spkb+QV7BahFUoJy2SiyRzQKex/4XG9PfkE2DXTUmkrlbbj
+RgLeafrfAQCrhEBAtrG+tQAAAABJRU5ErkJggg==
+
+------MultipartBoundary--jHVLwRvJjted208zWUknkT3nHbY4y6AJCz2o4edj2i------
